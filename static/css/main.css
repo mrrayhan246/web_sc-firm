@@ -48,7 +48,7 @@
     text-decoration: none;
 }
 .header .header-top .right-content .hea-sub{
-    background: #00ccff;
+    background: #3A9CD6;
     margin: 0 10px;
     padding: 4px 10px;
     border-radius: 15px 0 15px 0;
@@ -99,11 +99,25 @@
 /* ===== Staf Section CSS ===== */
 /* ===== Staf Section CSS ===== */
 .staf .container .row{
-    padding: 6rem 0;
+    padding: 4rem 0;
 }
 .staf .container .row .staf-box{
-    background: #00ccff;
+    display: flex;
+    align-items: center;
     padding: 2rem 0;
+}
+.staf .container .row .staf-box .content-wrap .content h2{
+    padding-bottom: 40px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #3A9CD6;
+}
+.staf .container .row .staf-box .content-wrap .content p{
+    padding-right: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6em;
 }
 .staf .container .row .staf-box .content-wrap .content img{
     width: 100%;
