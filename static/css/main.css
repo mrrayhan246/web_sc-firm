@@ -205,8 +205,13 @@
 /* ===== Contact Section CSS ===== */
 /* ===== Contact Section CSS ===== */
 .contact {
-    background: #818486;
+    background-image: url(../img/bg/contact-bg.png);
+    background-size: cover;
     padding: 4rem 0;
+}
+.contact .container .row{
+    justify-content: center;
+    align-items: center;
 }
 .contact .container .row .contact-wrap .content-box{
     display: flex;
@@ -236,6 +241,7 @@
 .contact .container .row .contact-form{
     background: #ffffff;
     padding: 2rem;
+    border-radius: 10px;
 }
 .contact .container .row .contact-form .c-form h2{
     font-size: 30px;
