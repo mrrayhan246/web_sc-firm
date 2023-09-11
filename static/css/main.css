@@ -128,18 +128,44 @@
 
 /* ===== Services We Provide Section CSS ===== */
 /* ===== Services We Provide Section CSS ===== */
+.services{
+    background: #fff;
+    padding: 4rem 0;
+}
 .services .container .row{
     gap: 40px;
     justify-content: space-between;
 }
+.services .container .row h2{
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
 .services .container .row .servi-box{
     min-width: 400px;
-    background: #3A9CD6;
+    background: #ffffff;
     padding: 40px 20px;
+    box-shadow: 0px 0px 35px -20px rgba(0, 0, 0, 0.8);
 }
 .services .container .row .servi-box .icons{
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
+}
+.services .container .row .servi-box .icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: #3A9CD6;
+    border-radius: 50%;
+}
+.services .container .row .servi-box .icons a i{
+    font-size: 30px;
+    color: black;
 }
 .services .container .row .servi-box .content h3{
     font-size: 20px;
