@@ -98,6 +98,9 @@
 
 /* ===== Staf Section CSS ===== */
 /* ===== Staf Section CSS ===== */
+.staf{
+    background: aliceblue;
+}
 .staf .container .row{
     padding: 4rem 0;
 }
@@ -175,4 +178,23 @@
 }
 .services .container .row .servi-box .content p{
     text-align: center;
+}
+
+
+
+/* ===== Staffline Bangladesh At a Glance! Section CSS ===== */
+/* ===== Staffline Bangladesh At a Glance! Section CSS ===== */
+.glance{
+    background: aliceblue;
+}
+.glance .container .row{
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+.glance .container .row .glance-box{
+    padding: 2rem 1rem;
+}
+.glance .container .row .glance-box .content-wrap .content img{
+    width: 100%;
 }
