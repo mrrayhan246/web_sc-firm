@@ -13,6 +13,7 @@
 
 
 /* ===== Header Top Section CSS ===== */
+/* ===== Header Top Section CSS ===== */
 .header{
     background: #e4e4e4;
 }
@@ -68,6 +69,7 @@
 
 
 /* ===== Header Navbar Section CSS ===== */
+/* ===== Header Navbar Section CSS ===== */
 .header .navbar{
     padding: 0 10%;
 }
@@ -81,6 +83,7 @@
 
 
 /* ===== Home Section CSS ===== */
+/* ===== Home Section CSS ===== */
 .home .carousel .carousel-inner{
     height: 83vh;
 }
@@ -89,4 +92,19 @@
 }
 .home .carousel .carousel-inner .carousel-item .carousel-caption{
     top: 25%;
+}
+
+
+
+/* ===== Staf Section CSS ===== */
+/* ===== Staf Section CSS ===== */
+.staf .container .row{
+    padding: 6rem 0;
+}
+.staf .container .row .staf-box{
+    background: #00ccff;
+    padding: 2rem 0;
+}
+.staf .container .row .staf-box .content-wrap .content img{
+    width: 100%;
 }
