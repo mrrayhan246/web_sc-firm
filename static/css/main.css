@@ -1,0 +1,92 @@
+
+/* ===== Font Family Link ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+/* ===== Header Top Section CSS ===== */
+.header{
+    background: #e4e4e4;
+}
+.header .header-top{
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+.header .header-top .left-content {
+    align-items: center;
+}
+.header .header-top .left-content a img{
+    width: 200px;
+    padding: 15px 0;
+}
+.header .header-top .right-content{
+    display: flex;
+    align-items: center;
+}
+.header .header-top .right-content .hea-box{
+    margin: 0 10px;
+    padding: 8px 10px;
+    border-radius: 15px 0 15px 0;
+}
+.header .header-top .right-content .hea-box i{
+    padding-right: 8px;
+}
+.header .header-top .right-content .hea-box a{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.header .header-top .right-content .hea-sub{
+    background: #00ccff;
+    margin: 0 10px;
+    padding: 4px 10px;
+    border-radius: 15px 0 15px 0;
+}
+.header .header-top .right-content .hea-sub i{
+    padding-right: 8px;
+    color: white;
+    font-size: 14px;
+}
+.header .header-top .right-content .hea-sub a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+/* ===== Header Navbar Section CSS ===== */
+.header .navbar{
+    padding: 0 10%;
+}
+.header .navbar .container-fluid{
+    padding: 0;
+}
+.header .navbar .container-fluid .collapse .navbar-nav .nav-item{
+    padding: 20px 20px;
+}
+
+
+
+/* ===== Home Section CSS ===== */
+.home .carousel .carousel-inner{
+    height: 83vh;
+}
+.home .carousel .carousel-inner .carousel-item img{
+    background-size: cover;
+}
+.home .carousel .carousel-inner .carousel-item .carousel-caption{
+    top: 25%;
+}
