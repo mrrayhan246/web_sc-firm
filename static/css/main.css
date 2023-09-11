@@ -122,3 +122,31 @@
 .staf .container .row .staf-box .content-wrap .content img{
     width: 100%;
 }
+
+
+
+
+/* ===== Services We Provide Section CSS ===== */
+/* ===== Services We Provide Section CSS ===== */
+.services .container .row{
+    gap: 40px;
+    justify-content: space-between;
+}
+.services .container .row .servi-box{
+    min-width: 400px;
+    background: #3A9CD6;
+    padding: 40px 20px;
+}
+.services .container .row .servi-box .icons{
+    display: flex;
+    justify-content: center;
+}
+.services .container .row .servi-box .content h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+.services .container .row .servi-box .content p{
+    text-align: center;
+}
