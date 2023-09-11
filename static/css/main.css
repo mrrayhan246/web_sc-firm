@@ -198,3 +198,90 @@
 .glance .container .row .glance-box .content-wrap .content img{
     width: 100%;
 }
+
+
+
+
+/* ===== Contact Section CSS ===== */
+/* ===== Contact Section CSS ===== */
+.contact {
+    background: #818486;
+    padding: 4rem 0;
+}
+.contact .container .row .contact-wrap .content-box{
+    display: flex;
+}
+.contact .container .row .contact-wrap .content-box .icons{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.contact .container .row .contact-wrap .content-box .content{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.contact .container .row .contact-wrap .content-box .content h3{
+    font-size: 22px;
+    color: #3A9CD6;
+}
+.contact .container .row .contact-form{
+    background: #ffffff;
+    padding: 2rem;
+}
+.contact .container .row .contact-form .c-form h2{
+    font-size: 30px;
+    color: #3A9CD6;
+    width: 500;
+}
+.contact .container .row .contact-form .c-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contact .container .row .contact-form .c-form .input-box input,
+.contact .container .row .contact-form .c-form .input-box textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contact .container .row .contact-form .c-form .input-box samp{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contact .container .row .contact-form .c-form .input-box input:focus ~ samp,
+.contact .container .row .contact-form .c-form .input-box input:valid ~ samp,
+.contact .container .row .contact-form .c-form .input-box textarea:valid ~ samp,
+.contact .container .row .contact-form .c-form .input-box textarea:valid ~ samp{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contact .container .row .contact-form .c-form .input-box input[type="submit"]{
+    width: 100px;
+    background: #3A9CD6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
