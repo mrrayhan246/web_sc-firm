@@ -15,7 +15,7 @@
 /* ===== Header Top Section CSS ===== */
 /* ===== Header Top Section CSS ===== */
 .header{
-    background: #e4e4e4;
+    background: #ffffff;
 }
 .header .header-top{
     display: flex;
@@ -79,6 +79,7 @@
 /* ===== Header Navbar Section CSS ===== */
 .header .navbar{
     padding: 0 10%;
+    background: #fff !important;
 }
 .header .navbar .container-fluid{
     padding: 0;
@@ -100,7 +101,10 @@
 .home .carousel .carousel-inner .carousel-item .carousel-caption{
     top: 25%;
 }
-
+.home .carousel .carousel-control-next,
+.home .carousel .carousel-control-prev {
+    width: 1% !important;
+}
 
 
 /* ===== Staf Section CSS ===== */
