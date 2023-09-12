@@ -303,7 +303,7 @@
 /* ===== Footer Section CSS ===== */
 /* ===== Footer Section CSS ===== */
 .footer {
-    padding: 4rem 0;
+    padding-top: 4rem;
     background: #333;
 }
 .footer .container .row .footer-box .head h3{
@@ -323,4 +323,15 @@
     color: #ffffff;
     font-weight: 500;
     padding-left: 10px;
+}
+.footer .copy-right{
+    background: #353535;
+    padding: 5px 0;
+    margin-top: 3rem;
+}
+.footer .copy-right p{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
