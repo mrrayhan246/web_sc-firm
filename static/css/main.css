@@ -302,3 +302,25 @@
 
 /* ===== Footer Section CSS ===== */
 /* ===== Footer Section CSS ===== */
+.footer {
+    padding: 4rem 0;
+    background: #333;
+}
+.footer .container .row .footer-box .head h3{
+    font-size: 22px;
+    text-align: left;
+    color: #3A9CD6;
+    padding-bottom: 20px;
+}
+.footer .container .row .footer-box .footer-link a{
+    color: #ebebeb;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.footer .container .row .footer-box .footer-link a:hover{
+    color: #ffffff;
+    font-weight: 500;
+    padding-left: 10px;
+}
