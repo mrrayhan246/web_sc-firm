@@ -34,16 +34,20 @@
     align-items: center;
 }
 .header .header-top .right-content .hea-box{
+    background: #f5f5f5;
     margin: 0 10px;
-    padding: 8px 10px;
+    padding: 4px 10px;
     border-radius: 15px 0 15px 0;
 }
 .header .header-top .right-content .hea-box i{
     padding-right: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
 }
 .header .header-top .right-content .hea-box a{
     color: rgb(0, 0, 0);
-    font-size: 14px;
+    text-transform: uppercase;
+    font-size: 13px;
     font-weight: 500;
     text-decoration: none;
 }
@@ -64,6 +68,9 @@
     font-size: 13px;
     font-weight: 500;
     text-decoration: none;
+}
+.header .header-top .right-content .hea-box .search{
+    padding: 0;
 }
 
 
