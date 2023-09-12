@@ -232,6 +232,12 @@
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
+    transition: 0.3s;
+}
+.contact .container .row .contact-wrap .content-box .icons:hover{
+    font-size: 28px;
+    background: #3A9CD6;
+    color: #fff;
 }
 .contact .container .row .contact-wrap .content-box .content{
     display: flex;
@@ -244,6 +250,13 @@
 .contact .container .row .contact-wrap .content-box .content h3{
     font-size: 22px;
     color: #3A9CD6;
+}
+.contact .container .row .contact-wrap .content-box .content p a{
+    color: #cccccc;
+    text-decoration: none;
+}
+.contact .container .row .contact-wrap .content-box .content p a:hover{
+    color: #ffffff;
 }
 .contact .container .row .contact-form{
     background: #ffffff;
