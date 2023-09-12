@@ -276,7 +276,7 @@
 }
 .contact .container .row .contact-form .c-form .input-box input:focus ~ samp,
 .contact .container .row .contact-form .c-form .input-box input:valid ~ samp,
-.contact .container .row .contact-form .c-form .input-box textarea:valid ~ samp,
+.contact .container .row .contact-form .c-form .input-box textarea:focus ~ samp,
 .contact .container .row .contact-form .c-form .input-box textarea:valid ~ samp{
     color: #e91e63;
     font-size: 12px;
