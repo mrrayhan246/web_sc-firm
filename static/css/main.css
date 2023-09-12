@@ -292,11 +292,17 @@
 .contact .container .row .contact-form .c-form .input-box input[type="submit"]{
     width: 100px;
     background: #3A9CD6;
-    color: #fff;
+    color: #e2e2e2;
     border: none;
     cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.contact .container .row .contact-form .c-form .input-box input[type="submit"]:hover{
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(44, 44, 44, 0.8);
 }
 
 
