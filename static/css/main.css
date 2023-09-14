@@ -69,9 +69,6 @@
     font-weight: 500;
     text-decoration: none;
 }
-.header .header-top .right-content .hea-box .search{
-    padding: 0;
-}
 
 
 
@@ -80,6 +77,7 @@
 .header .navbar{
     padding: 0 10%;
     background: #fff !important;
+
 }
 .header .navbar .container-fluid{
     padding: 0;
