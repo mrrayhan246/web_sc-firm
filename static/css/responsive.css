@@ -15,7 +15,7 @@
         position: fixed !important;
         top: 0 !important;
         width: 100% !important;
-        background: var(--prim-rgb);
+        background: white;
     }
     .heading .navbar{
         padding: 0;
@@ -43,14 +43,18 @@
     }
     .heading .navbar .collapse .navbar-nav .nav-item{
         background: var(--bg-second);
-        border-bottom: 1px solid var(--primary-second-color);
+        border-bottom: 1px solid rgb(247, 247, 247);
     }
     .heading .navbar .collapse .nav__icons{
-        background: var(--primary-second-color);
-        padding: 5px 20px;
+        background: rgb(218, 218, 218);
+        padding: 10px 20px;
+    }
+    .heading .navbar .collapse .nav__icons .search__box {
+        width: 100%;
     }
     .heading .navbar .collapse .nav__icons .search__box button{
-        right: 80px;
+        right: 50px;
     }
+   
 }
    
