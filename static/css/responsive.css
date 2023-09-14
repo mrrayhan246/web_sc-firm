@@ -1,0 +1,56 @@
+
+
+/*======================================== 
+    ===  Max-Width: 992px Screen Start ===
+==========================================*/
+@media only screen and (max-width: 992px) {
+
+    /*========== Header Top Section Start  ==========*/
+    .header__top{
+        display: none;
+    }
+
+    /*========== NavBar Section Start  ==========*/
+    .sticky{
+        position: fixed !important;
+        top: 0 !important;
+        width: 100% !important;
+        background: var(--prim-rgb);
+    }
+    .heading .navbar{
+        padding: 0;
+    }
+    .heading .navbar .container-fluid {
+        padding: 0.5rem 30px;
+        /* background: var(--primary-color); */
+    }
+    .heading .navbar .container-fluid img{
+        height: 30px;
+        display: flex;
+        left: 45%;
+        top: 5px;
+        position: absolute;
+        padding: 2px 0;
+    }
+    .container-fluid .collapse .navbar-nav{
+        padding: 1rem 0;
+    }
+    .heading .navbar .collapse .navbar-nav .nav-item{
+        transition: none;
+    }
+    .heading .navbar .collapse .navbar-nav{
+        padding-bottom: 0;
+    }
+    .heading .navbar .collapse .navbar-nav .nav-item{
+        background: var(--bg-second);
+        border-bottom: 1px solid var(--primary-second-color);
+    }
+    .heading .navbar .collapse .nav__icons{
+        background: var(--primary-second-color);
+        padding: 5px 20px;
+    }
+    .heading .navbar .collapse .nav__icons .search__box button{
+        right: 80px;
+    }
+}
+   

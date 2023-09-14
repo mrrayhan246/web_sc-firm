@@ -18,13 +18,13 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 70px;
+    height: 88px;
     background: var(--bg-fast);
     max-width: 1320px;
     margin: auto;
 }
 .header__top .top__logo{
-    padding-top: 5px;
+    padding: 5px 10px;
 }
 .header__top .top__logo img{
     height: 80px;
@@ -40,21 +40,12 @@
     height: 40px;
     padding-left: 20px;
 }
-.header__top .top__mail .b__right{
-    border-right: 1px solid var(--border-color);
-}
 .header__top .top__mail .mail__box i{
     font-size: 1.4rem;
-    color: var(--primary-second-color);
+    color: rgb(85, 85, 85);
 }
 .header__top .top__mail .mail__box .box__item {
     padding: 10px 20px;
-}
-.header__top .top__mail .mail__box .box__item span{
-    display: block;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--text-black);
 }
 .header__top .top__mail .mail__box .box__item a{
     font-size: 13px;
@@ -75,9 +66,6 @@
 header{
     background-image: linear-gradient(90deg, #eeb609 10%, #e4a633 100%);
 }
-.heading{
-    background: var(--bg-fast);
-}
 .heading .navbar{
     max-width: 1320px;
     margin: auto;
@@ -91,7 +79,7 @@ header{
 }
 .heading .navbar .container-fluid .navbar-toggler{
     font-size: 1rem !important;
-    padding: 4px 7px;
+    padding: 8px 10px;
     color: var(--text-white);
     border-color: rgb(231, 231, 231);
 }
@@ -142,7 +130,7 @@ header{
 /* ===== Home Section CSS ===== */
 /* ===== Home Section CSS ===== */
 .home .carousel .carousel-inner{
-    height: 83vh;
+    height: 84vh;
 }
 .home .carousel .carousel-inner .carousel-item img{
     background-size: cover;
