@@ -84,7 +84,6 @@
 .heading .navbar .container-fluid .navbar-toggler{
     font-size: 1rem !important;
     padding: 8px 10px;
-    color: var(--text-white);
     border-color: rgb(231, 231, 231);
 }
 .heading .navbar .container-fluid .navbar-toggler .nav__bars__icon{
@@ -103,6 +102,7 @@
 }
 .heading .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
     color: #000000;
+    background: #f1f1f1;
 }
 .heading .navbar .collapse .nav__icons{
     display: flex;
@@ -111,15 +111,14 @@
     width: 100%;
 }
 .heading .navbar .collapse .nav__icons .search__box{
-    width: 160px;
+    width: 180px;
     height: 30px;
-    padding-right: 15px;
+    padding-right: 30px;
 }
 .heading .navbar .collapse .nav__icons .search__box button{
     position: absolute;
-    right: 0px;
+    right: 10px;
     font-size: 1rem;
-    color: var(--text-black);
     font-family: 600;
     border: none;
     padding: 0 !important;
@@ -338,7 +337,7 @@
     font-size: 16px;
     margin: 10px 0;
     border: none;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #f3f3f3;
     outline: none;
     resize: none;
 }
@@ -356,14 +355,14 @@
 .contact .container .row .contact-form .c-form .input-box input:valid ~ samp,
 .contact .container .row .contact-form .c-form .input-box textarea:focus ~ samp,
 .contact .container .row .contact-form .c-form .input-box textarea:valid ~ samp{
-    color: #e91e63;
+    color: #3A9CD6;
     font-size: 12px;
     transform: translateY(-20px);
 }
 .contact .container .row .contact-form .c-form .input-box input[type="submit"]{
     width: 100px;
     background: #3A9CD6;
-    color: #e2e2e2;
+    color: #cecece;
     border: none;
     cursor: pointer;
     padding: 5px 10px;
@@ -373,7 +372,7 @@
 }
 .contact .container .row .contact-form .c-form .input-box input[type="submit"]:hover{
     color: #fff;
-    box-shadow: 0px 0px 10px 0px rgba(44, 44, 44, 0.8);
+    box-shadow: 0px 0px 10px 0px rgba(44, 44, 44, 0.4);
 }
 
 

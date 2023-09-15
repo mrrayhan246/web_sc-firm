@@ -22,7 +22,6 @@
     }
     .heading .navbar .container-fluid {
         padding: 0.5rem 30px;
-        /* background: var(--primary-color); */
     }
     .heading .navbar .container-fluid img{
         height: 30px;
@@ -42,7 +41,6 @@
         padding-bottom: 0;
     }
     .heading .navbar .collapse .navbar-nav .nav-item{
-        background: var(--bg-second);
         border-bottom: 1px solid rgb(247, 247, 247);
     }
     .heading .navbar .collapse .nav__icons{
@@ -53,7 +51,7 @@
         width: 100%;
     }
     .heading .navbar .collapse .nav__icons .search__box button{
-        right: 50px;
+        right: 60px;
     }
    
 }
