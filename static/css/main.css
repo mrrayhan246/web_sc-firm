@@ -54,7 +54,7 @@
 }
 .header__top .top__mail .mail__box .box__item a{
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     color: #161616;
     letter-spacing: .5px;
     text-decoration: none;
@@ -120,12 +120,14 @@
     right: 10px;
     font-size: 1rem;
     font-family: 600;
+    color: rgb(109, 109, 109);
     border: none;
     padding: 0 !important;
     padding-top: 3px !important;
 }
 .heading .navbar .collapse .nav__icons .search__box button:hover{
     background: none;
+    color: #3A9CD6;
 }
 
 
