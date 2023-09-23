@@ -54,12 +54,20 @@
         right: 60px;
     }
 
+
+
+
+
     .staf .container .row .staf-box .content-wrap .content h2{
         padding: 0 1rem;
+        font-size: 35px;
     }
     .staf .container .row .staf-box .content-wrap .content p{
         padding: 0 1rem;
     }
+
+
+
 
     
     .services .container .row .servi-box{
@@ -69,7 +77,4 @@
 
 
 
-    
-   
 }
-   
