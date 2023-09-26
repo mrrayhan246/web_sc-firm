@@ -1,33 +1,28 @@
-
-
-/*======================================== 
-    ===  Max-Width: 992px Screen Start ===
-==========================================*/
+/*=================================================
+    =====> Max-Width: 992px Screen Start <=====
+===================================================*/
 @media only screen and (max-width: 992px) {
-
-    /*========== Header Top Section Start  ==========*/
-    .header__top{
-        display: none;
-    }
-
-    /*========== NavBar Section Start  ==========*/
     .sticky{
+        height: 63px;
         position: fixed !important;
         top: 0 !important;
         width: 100% !important;
-        background: white;
+        background: var(--text-white);
     }
     .heading .navbar{
         padding: 0;
     }
     .heading .navbar .container-fluid {
-        padding: 0.5rem 30px;
+        padding: 14px 30px;
+        /* background: var(--primary-color); */
+        background: var(--text-white);
     }
     .heading .navbar .container-fluid img{
-        height: 52px;
+        width: 60px !important;
+        height: 60px;
         display: flex;
         left: 45%;
-        top: 0px;
+        top: 5px;
         position: absolute;
         padding: 2px 0;
     }
@@ -41,40 +36,16 @@
         padding-bottom: 0;
     }
     .heading .navbar .collapse .navbar-nav .nav-item{
-        border-bottom: 1px solid rgb(247, 247, 247);
+        border-bottom: 1px solid var(--text-gray);
     }
-    .heading .navbar .collapse .nav__icons{
-        background: rgb(218, 218, 218);
-        padding: 10px 20px;
+    .heading .navbar .collapse .navbar-nav .nav-item .nav-link{
+        border-right: none;
+        padding: 10px 0;
     }
-    .heading .navbar .collapse .nav__icons .search__box {
-        width: 100%;
+    .heading-top .container-wrapper .container .row .content{
+        justify-content: center;
     }
-    .heading .navbar .collapse .nav__icons .search__box button{
-        right: 60px;
+    .heading-top .container-wrapper .container .row .content .text{
+        display: none;
     }
-
-
-
-
-
-    .staf .container .row .staf-box .content-wrap .content h2{
-        padding: 0 1rem;
-        font-size: 35px;
-    }
-    .staf .container .row .staf-box .content-wrap .content p{
-        padding: 0 1rem;
-    }
-
-
-
-
-    
-    .services .container .row .servi-box{
-        min-width: 360px;
-    }
-
-
-
-
 }
