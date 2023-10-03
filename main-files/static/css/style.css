@@ -120,6 +120,9 @@
 
 /* ========= Heading Navbar Section Style ========= */
 /* ========= Heading Navbar Section Style ========= */
+.heading{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
 .heading .navbar{
     max-width: 1320px;
     margin: auto;
@@ -155,6 +158,16 @@
 }
 .heading .navbar .collapse .navbar-nav .nav-item{
     transition: .5s;
+}
+.heading .navbar .collapse .navbar-nav .nav-item i{
+    font-size: 10px;
+    padding-left: 5px;
+    font-weight: 600;
+    color: #b7b7b7;
+    transition: .3s;
+}
+.heading .navbar .collapse .navbar-nav .nav-item:hover i{
+    color: #000;
 }
 .heading .navbar .collapse .navbar-nav .nav-item .nav-link{
     color: var(--text-black);
