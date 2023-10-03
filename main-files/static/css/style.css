@@ -545,19 +545,53 @@
     color: var(--text-black);
 }
 .about-home .container-wrapper .container-fluid .row .about-sub-content .box-con .social-icon{
-    padding-top: 15px;
     display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
 }
-.about-home .container-wrapper .container-fluid .row .about-sub-content .box-con .social-icon i{
-    padding: 15px;
-    background: #979797;
+.about-home .container-wrapper .container-fluid .row .about-sub-content .box-con .social-icon .icon-box{
+    width: 35px;
+    height: 35px;
+    background: var(--text-white);
     border-radius: 100%;
-    margin: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.about-home .container-wrapper .container-fluid .row .about-sub-content .box-con .social-icon .icon-box a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.about-home .container-wrapper .container-fluid .row .about-sub-content .box-con .social-icon .icon-box i{
+    color: var(--text-green);
+    transition: 0.5s;
+}
+.about-home .container-wrapper .container-fluid .row .about-sub-content .box-con .social-icon .icon-box:hover i{
+    color: var(--text-gray);
+    transform: scale(1.3);
 }
 
 
 
 
+
+
+
+
+
+
+/* ========= Management Page Style ========= */
+/* ========= Management Page Style ========= */
+.manage-home .container-wrapper .container .row{
+    justify-content: center;
+    padding: 3% 0;
+}
+.manage-home .container-wrapper .container .row .manege-title h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 
 
