@@ -691,3 +691,40 @@
 .client .container-wrapper .container .row .col-lg-4 p{
     font-size: 14px;
 }
+
+
+
+/* ========= Audit Page Style ========= */
+/* ========= Audit Page Style ========= */
+.audit .container-wrapper{
+    background: #191a19;
+    padding: 3% 0;
+}
+.audit .container-wrapper .container .row{
+    justify-content: space-between;
+}
+.audit .container-wrapper .container .row h2{
+    text-align: center;
+    color: var(--primary-bt-color);
+    padding-bottom: 3%;
+}
+.audit .container-wrapper .container .row .col-lg-4{
+    width: 25rem;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.audit .container-wrapper .container .row .col-lg-4 img{
+    width: 100px;
+    padding: 10px 0;
+}
+.audit .container-wrapper .container .row .col-lg-4 h4{
+    font-size: 20px;
+    color: var(--text-green);
+    font-weight: 600;
+}
+.audit .container-wrapper .container .row .col-lg-4 h5{
+    font-size: 14px;
+}
+.audit .container-wrapper .container .row .col-lg-4 p{
+    font-size: 14px;
+}
