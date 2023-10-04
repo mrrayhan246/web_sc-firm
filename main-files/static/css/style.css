@@ -653,13 +653,13 @@
     border: none;
     transition: 0.5s;
 }
+.services .container-wrapper .container .row .col-lg-3:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 60, 170, 0.6);
+}
 .services .container-wrapper .container .row .col-lg-3 .card-body h5{
     font-size: 18px;
     font-weight: 600;
     color: var(--text-green);
-}
-.services .container-wrapper .container .row .col-lg-3:hover{
-    box-shadow: 0 0 5px 0 rgba(0, 60, 170, 0.6);
 }
 .services .container-wrapper .container .row .col-lg-3 img{
     width: 200px;
@@ -704,7 +704,6 @@
 /* ========= Audit Page Style ========= */
 /* ========= Audit Page Style ========= */
 .audit .container-wrapper{
-    background: #191a19;
     padding: 3% 0;
 }
 .audit .container-wrapper .container .row{
@@ -719,6 +718,11 @@
     width: 25rem;
     align-items: center;
     margin-bottom: 50px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.audit .container-wrapper .container .row .col-lg-4:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 60, 170, 0.6);
 }
 .audit .container-wrapper .container .row .col-lg-4 img{
     width: 100px;
@@ -734,4 +738,20 @@
 }
 .audit .container-wrapper .container .row .col-lg-4 p{
     font-size: 14px;
+}
+
+
+/* ========= Fire Safety Plan Page Style ========= */
+/* ========= Fire Safety Plan Page Style ========= */
+.fire-home .container-wrapper{
+    background-image: url(../images/bg/fire-safety-plan-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.fire-home .container-wrapper .container{
+    padding: 3% 0;
+}
+.fire-home .container-wrapper .container .row{
+    justify-content: center;
+    align-items: center;
 }
