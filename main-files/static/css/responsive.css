@@ -1,4 +1,12 @@
 /*=================================================
+    =====> Min-Width: 768px Screen Start <=====
+===================================================*/
+@media only screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}
+/*=================================================
     =====> Max-Width: 992px Screen Start <=====
 ===================================================*/
 @media only screen and (max-width: 992px) {

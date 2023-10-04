@@ -183,9 +183,6 @@
 .heading .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
     color: var(--text-gray);
 }
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
 
 
 
