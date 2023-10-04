@@ -120,6 +120,9 @@
 
 /* ========= Heading Navbar Section Style ========= */
 /* ========= Heading Navbar Section Style ========= */
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
 .heading{
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
