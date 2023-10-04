@@ -20,27 +20,6 @@ window.addEventListener('scroll', () => {
 });
 
 
-
-
-function scrollToSection(event, targetId, offset) {
-    event.preventDefault();
-    
-    // Get the target section element by ID
-    var targetSection = document.getElementById(targetId);
-    
-    if (targetSection) {
-        // Calculate the target position with the offset
-        var targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset + offset;
-        
-        // Scroll to the target position with smooth behavior
-        window.scrollTo({
-            top: targetPosition,
-            behavior: "smooth"
-        });
-    }
-};
-
-
 //============== Scroll Reveal =================//
 //============== Scroll Reveal =================//
 ScrollReveal({
