@@ -653,6 +653,11 @@
     border: none;
     transition: 0.5s;
 }
+.services .container-wrapper .container .row .col-lg-3 .card-body h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-green);
+}
 .services .container-wrapper .container .row .col-lg-3:hover{
     box-shadow: 0 0 5px 0 rgba(0, 60, 170, 0.6);
 }
