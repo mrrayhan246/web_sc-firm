@@ -29,11 +29,11 @@ ScrollReveal({
     delay: 100
 });
 
-ScrollReveal().reveal('.rev-left', {delay: 300, origin: 'left' });
-ScrollReveal().reveal('.rev-right', {delay: 400, origin: 'right' });
+ScrollReveal().reveal('.rev-left', {delay: 100, origin: 'left' });
+ScrollReveal().reveal('.rev-right', {delay: 100, origin: 'right' });
 
-ScrollReveal().reveal('.rev-top', {delay: 200, origin: 'top' });
-ScrollReveal().reveal('.rev-bottom', {delay: 300, origin: 'bottom' });
+ScrollReveal().reveal('.rev-top', {delay: 100, origin: 'top' });
+ScrollReveal().reveal('.rev-bottom', {delay: 100, origin: 'bottom' });
 
 
 
