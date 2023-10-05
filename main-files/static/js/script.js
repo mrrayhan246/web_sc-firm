@@ -25,8 +25,8 @@ window.addEventListener('scroll', () => {
 ScrollReveal({
     reset: false,
     distance: '40px',
-    duration: 1000,
-    delay: 100
+    duration: 2000,
+    delay: 400
 });
 
 ScrollReveal().reveal('.rev-left', {delay: 100, origin: 'left' });
