@@ -26,14 +26,14 @@ ScrollReveal({
     reset: false,
     distance: '40px',
     duration: 2000,
-    delay: 400
+    delay: 200
 });
 
-ScrollReveal().reveal('.home-titel, .protect-title ', {delay: 300, origin: 'left' });
-ScrollReveal().reveal('.content h4, .content p', {delay: 400, origin: 'right' });
+ScrollReveal().reveal('.rev-left', {delay: 300, origin: 'left' });
+ScrollReveal().reveal('.rev-right', {delay: 400, origin: 'right' });
 
-ScrollReveal().reveal('.container-fluid .row .col-lg-4 h2', {delay: 200, origin: 'left' });
-ScrollReveal().reveal('.container-fluid .row .col-lg-4 p', {delay: 300, origin: 'right' });
+ScrollReveal().reveal('.rev-top', {delay: 200, origin: 'top' });
+ScrollReveal().reveal('.rev-bottom', {delay: 300, origin: 'bottom' });
 
 
 
