@@ -20,7 +20,7 @@
 
     /* ========= Color root ========= */
         --primary-color: #000;
-        --primary-bt-color: #1FAED1;
+        --primary-bt-color: #1172BA;
         --secondary-bt-color: rgb(44,59,130);
         --primary-color: #000;
 
@@ -64,7 +64,7 @@
 }
 .protect-btn{
     color: var(--text-white);
-    background: var(--secondary-bt-color);
+    background: var(--primary-bt-color);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
