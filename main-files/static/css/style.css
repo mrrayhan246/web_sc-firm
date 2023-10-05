@@ -720,6 +720,7 @@
     margin-bottom: 50px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    border: none;
 }
 .audit .container-wrapper .container .row .col-lg-4:hover{
     box-shadow: 0 0 5px 0 rgba(0, 60, 170, 0.6);
@@ -920,6 +921,98 @@
     padding-bottom: 30px;
 }
 .safety-sign .container-wrapper .container .row .col-lg-12 p{
+    color: var(--text-gray);
+    font-weight: 400;
+    text-align: left !important;
+}
+
+
+/* ========= Monitoring Page Style ========= */
+/* ========= Monitoring Page Style ========= */
+.electrical .container-wrapper .container .row{
+    padding: 5% 0;
+    justify-content: space-between;
+}
+.electrical .container-wrapper .container .row h4{
+    text-align: left;
+    color: var(--text-green);
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.electrical .container-wrapper .container .row .col-lg-12 p{
+    color: var(--text-black);
+    font-weight: 400;
+    text-align: left !important;
+}
+
+
+
+/* ========= Monitoring Page Style ========= */
+/* ========= Monitoring Page Style ========= */
+.factory .container-wrapper{
+    background-image: url(../images/bg/services.png);
+    background-size: cover;
+    background-position: center;
+}
+.factory .container-wrapper .container .row{
+    padding: 5% 0;
+    justify-content: space-between;
+}
+.factory .container-wrapper .container .row h4{
+    text-align: left;
+    color: var(--text-green);
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.factory .container-wrapper .container .row .col-lg-12 p{
+    color: var(--text-gray);
+    font-weight: 400;
+    text-align: left !important;
+}
+
+
+/* ========= Monitoring Page Style ========= */
+/* ========= Monitoring Page Style ========= */
+.kinds-of-factory .container-wrapper .container .row{
+    padding: 5% 0;
+    justify-content: space-between;
+}
+.kinds-of-factory .container-wrapper .container .row h4{
+    text-align: left;
+    color: var(--text-green);
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.kinds-of-factory .container-wrapper .container .row .col-lg-12 p{
+    color: var(--text-gray);
+    font-weight: 400;
+    text-align: left !important;
+}
+
+
+/* ========= Monitoring Page Style ========= */
+/* ========= Monitoring Page Style ========= */
+.training .container-wrapper .container-fluid .row{
+    /* padding: 5% 0; */
+    justify-content: space-between;
+}
+.training .container-wrapper .container-fluid .row .slide,
+.training .container-wrapper .container-fluid .row .carousel-inner
+{
+    height: 60vh !important;
+    padding: 0;
+}
+.training .container-wrapper .container-fluid .row h4{
+    text-align: left;
+    color: var(--text-green);
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.training .container-wrapper .container-fluid .row .col-lg-12 p{
     color: var(--text-gray);
     font-weight: 400;
     text-align: left !important;
