@@ -811,3 +811,44 @@
     font-weight: 600;
     text-align: left !important;
 }
+
+
+
+
+/* ========= Occupational Health & Safety Page Style ========= */
+/* ========= Occupational Health & Safety Page Style ========= */
+.pest-control .container-wrapper{
+    background-image: url(../images/bg/services.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pest-control .container-wrapper .container .row{
+    padding: 3% 0;
+    justify-content: space-between;
+}
+.pest-control .container-wrapper .container .row h3{
+    text-align: center;
+    color: var(--primary-bt-color);
+    font-weight: 600;
+    padding-bottom: 30px
+}
+.pest-control .container-wrapper .container .row .col-lg-6{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pest-control .container-wrapper .container .row .col-lg-6 img{
+    width: 400px;
+}
+.pest-control .container-wrapper .container .row .col-lg-6 h2{
+    color: var(--text-green);
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.pest-control .container-wrapper .container .row .col-lg-6 .box1 p{
+    color: var(--text-white);
+    font-weight: 600;
+    text-align: left !important;
+}
