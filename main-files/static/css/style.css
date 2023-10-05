@@ -760,7 +760,7 @@
 }
 .fire-home .container-wrapper .container .row .text h3{
     text-align: center;
-    color: var(--text-white);
+    color: var(--text-green);
     font-weight: 600;
     padding-bottom: 30px;
 }
@@ -783,14 +783,8 @@
 }
 
 .pest-control .container-wrapper .container .row{
-    padding: 3% 0;
+    padding: 5% 0;
     justify-content: space-between;
-}
-.pest-control .container-wrapper .container .row h3{
-    text-align: center;
-    color: var(--primary-bt-color);
-    font-weight: 600;
-    padding-bottom: 30px
 }
 .pest-control .container-wrapper .container .row .col-lg-6{
     align-items: center;
@@ -817,38 +811,116 @@
 
 /* ========= Occupational Health & Safety Page Style ========= */
 /* ========= Occupational Health & Safety Page Style ========= */
-.pest-control .container-wrapper{
-    background-image: url(../images/bg/services.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.pest-control .container-wrapper .container .row{
-    padding: 3% 0;
+.occupational .container-wrapper .container .row{
+    padding: 5% 0;
     justify-content: space-between;
 }
-.pest-control .container-wrapper .container .row h3{
+.occupational .container-wrapper .container .row h3{
     text-align: center;
     color: var(--primary-bt-color);
     font-weight: 600;
     padding-bottom: 30px
 }
-.pest-control .container-wrapper .container .row .col-lg-6{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.pest-control .container-wrapper .container .row .col-lg-6 img{
-    width: 400px;
-}
-.pest-control .container-wrapper .container .row .col-lg-6 h2{
-    color: var(--text-green);
-    font-weight: 600;
-    padding-bottom: 30px;
-}
-.pest-control .container-wrapper .container .row .col-lg-6 .box1 p{
+.occupational .container-wrapper .container .row .col-lg-6 .box1 p{
     color: var(--text-white);
     font-weight: 600;
+    text-align: left !important;
+}
+
+
+
+
+
+/* ========= Environment Health & Safety Page Style ========= */
+/* ========= Environment Health & Safety Page Style ========= */
+.environment .container-wrapper{
+    background-image: url(../images/bg/services.png);
+    background-size: cover;
+    background-position: center;
+}
+.environment .container-wrapper .container .row{
+    padding: 5% 0;
+    justify-content: space-between;
+}
+.environment .container-wrapper .container .row h3{
+    text-align: center;
+    color: var(--primary-bt-color);
+    font-weight: 600;
+    padding-bottom: 30px
+}
+.environment .container-wrapper .container .row h4{
+    text-align: left;
+    color: var(--text-green);
+    font-size: 22px;
+    font-weight: 600;
+    padding: 30px 0;
+}
+.environment .container-wrapper .container .row .col-lg-12 p{
+    color: var(--text-gray);
+    font-weight: 400;
+    text-align: left !important;
+}
+
+
+
+/* ========= Environment Health & Safety Page Style ========= */
+/* ========= Environment Health & Safety Page Style ========= */
+.lps-system .container-wrapper .container .row{
+    padding: 5% 0;
+    justify-content: space-between;
+}
+.lps-system .container-wrapper .container .row h3{
+    text-align: left;
+    color: var(--text-green);
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 30px
+}
+.lps-system .container-wrapper .container .row h4{
+    text-align: left;
+    color: var(--text-green);
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.lps-system .container-wrapper .container .row h2{
+    text-align: left;
+    color: var(--primary-bt-color);
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.lps-system .container-wrapper .container .row .col-lg-12 p{
+    color: var(--text-black);
+    font-weight: 400;
+    text-align: left !important;
+}
+
+
+
+/* ========= Environment Health & Safety Page Style ========= */
+/* ========= Environment Health & Safety Page Style ========= */
+.safety-sign .container-wrapper{
+    background-image: url(../images/bg/services.png);
+    background-size: cover;
+    background-position: center;
+}
+.safety-sign .container-wrapper .container .row{
+    padding: 5% 0;
+    justify-content: space-between;
+}
+.safety-sign .container-wrapper .container .row h3{
+    text-align: center;
+    color: var(--text-green);
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 30px
+}
+.safety-sign .container-wrapper .container .row .col-lg-12{
+    padding-bottom: 30px;
+}
+.safety-sign .container-wrapper .container .row .col-lg-12 p{
+    color: var(--text-gray);
+    font-weight: 400;
     text-align: left !important;
 }
