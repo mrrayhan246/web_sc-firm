@@ -553,6 +553,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 0 3%;
 }
 .about-home .container-wrapper .container-fluid .row .about-sub-content .box h2{
     color: var(--primary);
@@ -1051,12 +1052,12 @@
 }
 .training .container-wrapper .container .row .col-lg-4 .card{
     margin-bottom: 50px;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
     border: none;
     transition: 0.3s;
 }
 .training .container-wrapper .container .row .col-lg-4 .card:hover{
-    box-shadow: 0 0 5px 0 rgba(0, 60, 170, 0.6);
+    box-shadow: var(--box-shadow-hover);
 }
 .training .container-wrapper .container .row .col-lg-4 .card-title{
     color: var(--text-green);

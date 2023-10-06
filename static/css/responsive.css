@@ -104,5 +104,79 @@
     .copy-right .container .row .col-lg-6 p{
         font-size: 11px;
     }
+
+    .about-home .container-wrapper .container-fluid .row .about-titel{
+        padding: 0 3%;
+    }
     
+
+    .manage-home .container-wrapper .container .row{
+        padding: 10% 0;
+    }
+
+
+    .audit .container-wrapper{
+        padding: 10% 0;
+    }
+    .audit .container-wrapper .container .row{
+        justify-content: center;
+    }
+    .audit .container-wrapper .container .row .col-lg-4{
+        width: 90%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+
+    .fire-home .container-wrapper .container{
+        padding: 10% 0;
+    }
+    .fire-home .container-wrapper .container .row{
+        padding: 0 3%;
+    }
+
+    .pest-control .container-wrapper .container .row{
+        padding: 10% 0;
+        justify-content: center;
+    }
+    .pest-control .container-wrapper .container .row .col-lg-6{
+        padding: 3%;
+    }
+    .pest-control .container-wrapper .container .row .col-lg-6 img{
+        width: 100%;
+    }
+
+    .lps-system .container-wrapper .container .row .col-lg-12 p{
+        margin-bottom: 1px;
+    }
+    .lps-system .container-wrapper .container .row h3{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .lps-system .container-wrapper .container .row h4{
+        padding-top: 10px;
+    }
+
+    .safety-sign .container-wrapper .container .row .col-lg-4{
+        justify-content: center !important;
+        margin-bottom: 20px;
+    }
+    .safety-sign .container-wrapper .container .row .col-lg-4 img{
+        width: 90%;
+    }
+
+    .slider .container-wrapper .container-fluid .row .slide,
+    .slider .container-wrapper .container-fluid .row .carousel-inner
+    {
+    height: 30vh !important;
+    padding: 0;
+    }
+
+    .training .container-wrapper .container .row{
+        justify-content: center;
+    }
+    .training .container-wrapper .container .row .col-lg-4 .card{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
 }
