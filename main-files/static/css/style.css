@@ -70,6 +70,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    transition: 0.5s;
 }
 .primary-btn:hover{
     color: var(--text-black);
@@ -86,8 +87,12 @@
     justify-content: center;
     display: flex;
     border: none;
+    transition: 0.5s;
 }
-
+.scondary-btn:hover{
+    color: var(--text-gray);
+    box-shadow: var(--box-shadow-hover);
+}
 
 
 /* ========= Sticky Navbar Style ========= */
@@ -435,6 +440,7 @@
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 20px;
+    color: var(--text-light-black);
 }
 .footer .container-wrapper .container .row .col-lg-2 a,
 .footer .container-wrapper .container .row .col-lg-3 a{
@@ -453,17 +459,22 @@
 /* ========= Footer Bottom Section Style ========= */
 .copy-right{
     border-top: 1px solid var(--text-gray);
-    background: var(--bg-footer);
+    background: var(--bg-drak);
     padding: 10px 0;
+}
+.copy-right .container .row{
+    justify-content: center;
 }
 .copy-right .container .row .col-lg-6{
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 10px 0;
 }
 .copy-right .container .row .col-lg-6 a{
     font-size: 14px;
     text-decoration: none;
-    color: var(--text-white);
+    color: var(--text-green);
     padding: 0 5px;
     font-weight: 500;
 }
@@ -471,6 +482,7 @@
     font-size: 14px;
     margin-bottom: 0;
     font-weight: 500;
+    color: var(--text-gray);
 }
 .copy-right .container .row .col-lg-6 img{
     width: 100%;
@@ -494,15 +506,15 @@
 }
 .about-home .container-wrapper .container-fluid .row .about-titel h2{
     text-align: center;
-    color: var(--text-green);
+    color: var(--primary);
     padding-bottom: 30px;
 }
 .about-home .container-wrapper .container-fluid .row .about-titel p{
-    color: var(--text-black);
+    color: var(--text-gray);
     padding-bottom: 20px;
 }
 .about-home .container-wrapper .container-fluid .row .about-titel span{
-    color: var(--text-green);
+    color: var(--text-black);
     font-weight: 600;
 }
 .about-home .container-wrapper .container-fluid .row .about-content-wrapper{
@@ -543,7 +555,7 @@
     align-items: center;
 }
 .about-home .container-wrapper .container-fluid .row .about-sub-content .box h2{
-    color: var(--text-green);
+    color: var(--primary);
     font-weight: 600;
 }
 .about-home .container-wrapper .container-fluid .row .about-sub-content .box h3{
@@ -568,7 +580,7 @@
     height: 35px;
     background: var(--text-white);
     border-radius: 100%;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
 }
 .about-home .container-wrapper .container-fluid .row .about-sub-content .box-con .social-icon .icon-box a{
     width: 35px;
@@ -743,7 +755,7 @@
 }
 .audit .container-wrapper .container .row .col-lg-4 h4{
     font-size: 20px;
-    color: var(--text-black);
+    color: var(--text-green);
     font-weight: 600;
 }
 .audit .container-wrapper .container .row .col-lg-4 h5{
@@ -762,7 +774,7 @@
     background-position: center;
 }
 .fire-home .container-wrapper .container-color{
-    background: rgba(28, 64, 128, 0.7);
+    background: var(--bg-glass-black);
 }
 .fire-home .container-wrapper .container{
     padding: 3% 0;
@@ -778,13 +790,14 @@
     padding-bottom: 30px;
 }
 .fire-home .container-wrapper .container .row .col-lg-4 h4{
-    color: var(--text-white);
+    color: var(--primary);
     font-weight: 600;
     padding-bottom: 20px;
 }
 .fire-home .container-wrapper .container .row .col-lg-4 p{
     color: var(--text-white);
     font-weight: 400;
+    font-weight: 600;
 }
 
 /* ========= Pest Control System Page Style ========= */
@@ -830,7 +843,7 @@
 }
 .occupational .container-wrapper .container .row h3{
     text-align: center;
-    color: var(--primary-bt-color);
+    color: var(--text-green);
     font-weight: 600;
     padding-bottom: 30px
 }
@@ -857,7 +870,7 @@
 }
 .environment .container-wrapper .container .row h3{
     text-align: center;
-    color: var(--primary-bt-color);
+    color: var(--text-green);
     font-weight: 600;
     padding-bottom: 30px
 }
@@ -898,13 +911,13 @@
 }
 .lps-system .container-wrapper .container .row h2{
     text-align: left;
-    color: var(--primary-bt-color);
+    color: var(--btn-primary);
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
 }
 .lps-system .container-wrapper .container .row .col-lg-12 p{
-    color: var(--text-black);
+    color: var(--text-gray);
     font-weight: 400;
     text-align: left !important;
 }
