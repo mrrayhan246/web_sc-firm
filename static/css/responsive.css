@@ -56,9 +56,22 @@
     .heading-top .container-wrapper .container .row .content .text{
         display: none;
     }
+
+    .client .container-wrapper .container .row{
+        justify-content: center;
+    }
+    .client .container-wrapper .container .row .col-lg-4{
+        margin: 15px;
+    }
+
+    .contact .container-wrapper .container .row .form-wrapper form .col-lg-7{
+        width: 80%;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 768px) {
     .home .container-wrapper .container .row .content h2{
         font-size: 150%;
     }
