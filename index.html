@@ -1,45 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- ========== Meta Links ========== -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainable Consultancy Firm</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .box{
-            background-image: url(main-files/static/images/bg/protect-bg.jpg);
-            background-size: cover;
-            width: 100%;
-            height: 100vh;  
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .box1{
-            background: rgba(28, 64, 128, 0.7);
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 1;
-        }
-        .box h1{
-            font-size: 50px;
-            font-size: 600;
-            color: white;
-            
-        }
-    </style>
+
+    <!-- ========== WebSite Title Name ========== -->
+    <title> Sustainable Consultancy Firm </title>
+
+    <!-- ========== CSS StyleSheet Files Links ========== -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- ========== Resposive CSS StyleSheet Files Links ========== -->
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+    <!-- ========== Bootstrap CSS Links ========== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- ========== FontAwesome Icons Links ========== -->
+    <script src="https://kit.fontawesome.com/4076529111.js" crossorigin="anonymous"></script>
+
+    <!-- ========== ScrollReveal JS Links ========== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 </head>
 <body>
-    <div class="box">
-        <div class="box1">
-            <h1>Comming Soon..</h1>
+    
+    <!--=======================================
+        =====> Header Section Start <=====
+    =========================================-->
+    <!--========= Heading Top Section =========-->
+    <section class="heading-top">
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!--========= heading-top Main Content =========-->
+                    <div class="content">
+                        <!--========= Left Content =========-->
+                        <div class="text">
+                            <p><strong>Inspection - Installation - Maintenance</strong></p>
+                        </div>
+                        <!--========= Right Social Icons =========-->
+                        <div class="social">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--========= NabBar Section =========-->
+    
+    <section class="heading">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="nav__bars__icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <!--========= Mobile Viwes Navbar Logo =========-->
+                <img src="static/images/logo/logo.jpg" alt="">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="logo" id="scrollImage">
+                        <img src="static/images/logo/logo.jpg" alt="">
+                    </div>
+                    <!--========= Nav Links =========-->
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">HOME</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="about.html" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="management.html">Management</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" onclick="scrollToSection(event, 'services', -150)" href="#services" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="audit-consultancy.html">Audit Consultancy</a></li>
+                                <li><a class="dropdown-item" href="fire-safety-solution.html">Fire Safety Solution</a></li>
+                                <li><a class="dropdown-item" href="monitoring-provide.html">Monitoring & provide</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#client">CLIENT LIST</a></li>
+                        <li class="nav-item"><a class="nav-link border-right" href="#contact">CONTACT US</a></li>
+                    </ul>
+                    <!--========= Search & Social Section Start =========-->
+                    <div class="helpline">
+                        <a class="scondary-btn" href="tel:+8801603548223"> HELPLINE: +8801603548223</a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--=======================================
+        =====> Header Section End <=====
+    =========================================-->
+
+    <!--=======================================
+        =====> Home Section Start <=====
+    =========================================-->
+    <section class="home">
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!--========= Home Page Main Content =========-->
+                    <div class="content">
+                        <!--========= Home Page Logo =========-->
+                        <div class="logo rev-top"><img src="static/images/logo/logo-new.png" alt=""></div>
+                        <!--========= Home Page Titels =========-->
+                        <h2 class="home-titel rev-left">Welcome to Sustainable Compliance Solution BD</h2>
+                        <!--========= Home Page Paragrap =========-->
+                        <p class="rev-right">Sustainable Compliance Solution Bd strive to ensure your organization is in compliance with ALL regulatory standards. Our wide range of services enables your operation to run under pristine conditions. Entrust our highly educated, licensed, certified, and motivated professionals to maintain your organization to the highest standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======================================
+        =====> Home Section End <=====
+    =========================================-->
+
+    <!--=======================================
+        =====> Protect Section Start <=====
+    =========================================-->
+    <section class="protect">
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!--========= Protect Page Main Content =========-->
+                    <div class="content rev-right">
+                        <h4>Let Us Help</h4>
+                        <h2 class="protect-title rev-left">Protect What Matters</h2>
+                        <p>We Offer Installation, Inspection and Maintenance</p>
+                        <div class="button">
+                            <a class="primary-btn" href=""><i class="fa-solid fa-arrow-right"></i>Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======================================
+        =====> Protect Section End <=====
+    =========================================-->
+
+    <!--=======================================
+        =====> Expert Section Start <=====
+    =========================================-->
+    <section class="expert">
+        <div class="container-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 class="rev-right">Expert Service</h2>
+                        <p class="rev-left">At Compliance Fire Protection, our certified and factory trained service technicians have the required expertise and knowledge to provide new installation and periodic inspection and maintenance necessary for your fire protection equipment to function properly in a fire emergency.</p>
+                    </div>
+                    <div class="col-lg-4" style="background: #257E17;">
+                        <h2 class="rev-right">Fast Solutions</h2>
+                        <p class="rev-left">At Compliance Fire Protection, our certified and factory trained service technicians have the required expertise and knowledge to provide new installation and periodic inspection and maintenance necessary for your fire protection equipment to function properly in a fire emergency.</p>
+                    </div>
+                    <div class="col-lg-4" style="background: #121271;">
+                        <h2 class="rev-right">Proper Procedure</h2>
+                        <p class="rev-left">At Compliance Fire Protection, our certified and factory trained service technicians have the required expertise and knowledge to provide new installation and periodic inspection and maintenance necessary for your fire protection equipment to function properly in a fire emergency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======================================
+        =====> Expert Section End <=====
+    =========================================-->
+
+    <!--=======================================
+        =====> Services Section Start <=====
+    =========================================-->
+    <div class="services" id="services">
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="row">
+                    <h3 class="rev-top">OUR SERVICES</h3>
+                    <div class="col-lg-6">
+                        <h2 class="rev-left">Pest Control System</h2>
+                        <div class="box1 rev-right">
+                            <p>✓ ALL-IN-ONE SOLUTIONS: INSPECTION, TREATMENT, PEST PREVENTION</p>
+                            <p>✓ HIGHLY EFFECTIVE AND SAFE ECO-FRIENDLY PEST CONTROL METHODS</p>
+                            <p>✓ CHILD- AND PET-SAFE PEST CONTROL METHODS</p>
+                            <p>✓ DISINFECTION AVAILABLE UPON REQUEST</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 rev-left">
+                        <img src="static/images/services/services.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-wrapper change-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="box rev-right">
+                        <h3>Inspection - </h3>
+                        <h3>Installation - </h3>
+                        <h3>Maintenance - </h3>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-right" alt="...">
+                        <div class="card-body rev-left">
+                            <h5 class="card-title">Fire & Electric Valuation</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-right" alt="...">
+                        <div class="card-body rev-left">
+                            <h5 class="card-title">Factory Continuous Improvement</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-right" alt="...">
+                        <div class="card-body rev-left">
+                            <h5 class="card-title">All Kinds Of Factory</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-right" alt="...">
+                        <div class="card-body rev-left">
+                            <h5 class="card-title">Training</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-left" alt="...">
+                        <div class="card-body rev-right">
+                            <h5 class="card-title">Factory Self Internal Assessment</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-left" alt="...">
+                        <div class="card-body rev-right">
+                            <h5 class="card-title">SLD (Single Line Diagram)</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-left" alt="...">
+                        <div class="card-body rev-right">
+                            <h5 class="card-title">Fire Safety Plan</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-left" alt="...">
+                        <div class="card-body rev-right">
+                            <h5 class="card-title">Pest Control System</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-right" alt="...">
+                        <div class="card-body rev-left">
+                            <h5 class="card-title">Occupational Health & Safety</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-right" alt="...">
+                        <div class="card-body rev-left">
+                            <h5 class="card-title">Environmental Management Assessment (EIA)</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-right" alt="...">
+                        <div class="card-body rev-left">
+                            <h5 class="card-title">LPS System</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 card">
+                        <img src="/static/images/logo/logo.jpg" class="card-img-top rev-right" alt="...">
+                        <div class="card-body rev-left">
+                            <h5 class="card-title">All Type Safety Sign Provider</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="scondary-btn">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <!--=======================================
+        =====> Services Section End <=====
+    =========================================-->
+
+    <!--=======================================
+        =====> Client Section Start <=====
+    =========================================-->
+    <section class="client" id="client">
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="row">
+                    <h2 class="rev-top">Client List</h2>
+                    
+                    <div class="col-lg-4 card">
+                        <img src="/static/images/clients/JF.jpg" class="card-img-top rev-top" alt="...">
+                        <div class="card-body rev-left">
+                            <h4>KRK Garments Ltd.</h4>
+                            <h5>Business Type : GRS & Recycle OEKO Tex</h5>
+                            <p>Since: 2023</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 card">
+                        <img src="/static/images/clients/JF.jpg" class="card-img-top rev-top" alt="...">
+                        <div class="card-body rev-left">
+                            <h4>FNF TRIMS LTD.</h4>
+                            <h5>Business Type : FSC & OEKO TEX</h5>
+                            <p>Since: 2023</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 card">
+                        <img src="/static/images/clients/JF.jpg" class="card-img-top rev-top" alt="...">
+                        <div class="card-body rev-left">
+                            <h4>Shawdesh Label & Accessories</h4>
+                            <h5>Business Type : GRS & OEKO TEX</h5>
+                            <p>Since: 2023</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======================================
+        =====> Client Section End <=====
+    =========================================-->
+
+    <!--=======================================
+        =====> Contact Section End <=====
+    =========================================-->
+    <section class="contact" id="contact">
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h2 class="rev-top">Send Us a Message</h2>
+                        <p class="rev-left">We Offer Installation, Inspection and Maintenance</p>
+                    </div>
+
+                    <div class="form-wrapper">
+                        <form>
+                            <div class="col-lg-7">
+                                <label for="inputAddress" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="col-lg-7">
+                                <label for="exampleInputEmail1" class="form-label">Your Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="col-lg-7">
+                                <label for="inputAddress" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="col-lg-7">
+                                <label for="exampleFormControlTextarea1" class="form-label">Your message (optional)</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="scondary-btn">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======================================
+        =====> Contact Section End <=====
+    =========================================-->
+
+    <!--=======================================
+        =====> Footer Section Start <=====
+    =========================================-->
+    <section class="footer">
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5">
+                        <h2>CONTACT US</h2>
+                        <i class="fa-solid fa-headset"></i>
+                        <h3>Mohammad Al Amin</h3>
+                        <h6>COO & Founder</h6>
+                        <a href="">amin@scsbd.info</a>
+                        <a href="">01859472925</a>
+                        <h3>Head Office :</h3>
+                        <p>House-87, Road-15, Sector-11 Uttara, Dhaka-1230</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <h2>CUSTOMER SERVICE</h2>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Consumer Complaints</a>
+                        <a href="#">Support Tickets</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <h2>COMPANY INFORMATION</h2>
+                        <a href="#">About Us</a>
+                        <a href="#">Help & FAQs</a>
+                        <a href="#">Blogs & Forum</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="col-lg-2">
+                        <h2>OUR COMMUNITIES</h2>
+                        <a href="#">Facebook Page</a>
+                        <a href="#">Facebook Group</a>
+                        <a href="#">YouTube Channel</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Linkedin</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======================================
+        =====> Footer Section End <=====
+    =========================================-->
+
+    <!--=======================================
+        =====> Copy-Right Section Start <=====
+    =========================================-->
+    <section class="copy-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="">Scsbd.info</a><p> © 2022. Develop & Maintenance By </p><a href="">ITSIAN</a>
+                </div>
+                <!-- <div class="col-lg-6">
+                    <img src="/static/images/bg/Payments-Logo.png" alt="">
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!--=======================================
+        =====> Copy-Right Section End <=====
+    =========================================-->
+    
+
+
+
+
+
+
+    <!-- ========== Custom JavaScript Files Links ========== -->
+    <script src="static/js/script.js"></script>
+
+    <!-- ========== Bootstrap JavaScript Links ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
