@@ -344,18 +344,14 @@
 /* ========= Contact Section Style ========= */
 /* ========= Contact Section Style ========= */
 .contact{
-    background-image: url(../images/bg/contact.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: var(--btn-primary);
 }
 .contact .container-wrapper{
-    background: var(--bg-glass-white);  
     padding: 5% 0;
 }
 .contact .container-wrapper .container .row .title h2{
     text-align: center;
-    color: var(--secondary);
+    color: var(--text-green);
     font-size: 35px;
     font-weight: 500;
 }
@@ -374,19 +370,19 @@
     padding-bottom: 20px;
 }
 .contact .container-wrapper .container .row .form-wrapper form .col-lg-7 label{
-    color: var(--text-black);
+    color: var(--text-white);
     font-weight: 500;
 }
 .contact .container-wrapper .container .row .form-wrapper form .col-lg-7 input{
-    background: var(--text-light-black);
+    background: var(--text-gray);
     color: var(--text-white);
 }
 .contact .container-wrapper .container .row .form-wrapper form .col-lg-7 input::placeholder{
-    color: var(--text-white);
+    color: var(--text-light-black);
     font-size: 12px;
 }
 .contact .container-wrapper .container .row .form-wrapper form .col-lg-7 textarea{
-    background: var(--text-light-black);
+    background: var(--text-gray);
     color: var(--text-white);
     font-size: 14px;
     resize: none;
@@ -624,9 +620,7 @@
 /* ========= Services Page Style ========= */
 /* ========= Services Page Style ========= */
 .services .container-wrapper{
-    background-image: url(../images/bg/services.png);
-    background-size: cover;
-    background-position: center;
+    background: var(--bg-drak);
 }
 
 .services .container-wrapper .container .row{
@@ -730,6 +724,7 @@
 /* ========= Audit Page Style ========= */
 .audit .container-wrapper{
     padding: 3% 0;
+    background: var(--bg-drak);
 }
 .audit .container-wrapper .container .row{
     justify-content: space-between;
@@ -770,9 +765,7 @@
 /* ========= Fire Safety Plan Page Style ========= */
 /* ========= Fire Safety Plan Page Style ========= */
 .fire-home .container-wrapper{
-    background-image: url(../images/bg/fire-safety-plan-bg.png);
-    background-size: cover;
-    background-position: center;
+    background: var(--bg-drak);
 }
 .fire-home .container-wrapper .container-color{
     background: var(--bg-glass-black);
@@ -804,9 +797,7 @@
 /* ========= Pest Control System Page Style ========= */
 /* ========= Pest Control System Page Style ========= */
 .pest-control .container-wrapper{
-    background-image: url(../images/bg/services.png);
-    background-size: cover;
-    background-position: center;
+    background: var(--bg-drak);
 }
 
 .pest-control .container-wrapper .container .row{
@@ -861,9 +852,7 @@
 /* ========= Environment Health & Safety Page Style ========= */
 /* ========= Environment Health & Safety Page Style ========= */
 .environment .container-wrapper{
-    background-image: url(../images/bg/services.png);
-    background-size: cover;
-    background-position: center;
+    background: var(--bg-drak);
 }
 .environment .container-wrapper .container .row{
     padding: 5% 0;
@@ -928,9 +917,10 @@
 /* ========= Environment Health & Safety Page Style ========= */
 /* ========= Environment Health & Safety Page Style ========= */
 .safety-sign .container-wrapper{
-    background-image: url(../images/bg/services.png);
-    background-size: cover;
-    background-position: center;
+    background: var(--bg-drak);
+}
+.safety-sign .container-wrapper .container-color{
+    background: var(--bg-glass-black);
 }
 .safety-sign .container-wrapper .container .row{
     padding: 5% 0;
@@ -977,9 +967,7 @@
 /* ========= Monitoring Page Style ========= */
 /* ========= Monitoring Page Style ========= */
 .factory .container-wrapper{
-    background-image: url(../images/bg/services.png);
-    background-size: cover;
-    background-position: center;
+    background: var(--bg-drak);
 }
 .factory .container-wrapper .container .row{
     padding: 5% 0;
@@ -1084,9 +1072,7 @@
 /* ========= Monitoring Page Style ========= */
 /* ========= Monitoring Page Style ========= */
 .factory-self .container-wrapper{
-    background-image: url(../images/bg/services.png);
-    background-size: cover;
-    background-position: center;
+    background: var(--bg-drak);
 }
 .factory-self .container-wrapper .container .row{
     padding: 5% 0;
