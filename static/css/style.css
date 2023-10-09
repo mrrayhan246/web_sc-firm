@@ -1048,7 +1048,7 @@
 /* ========= Monitoring Page Style ========= */
 .training .container-wrapper .container .row{
     padding: 5% 0;
-    justify-content: space-between;
+    justify-content: center;
 }
 .training .container-wrapper .container .row h4{
     text-align: left;
@@ -1056,6 +1056,9 @@
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
+}
+.training .container-wrapper .container .row .col-lg-4{
+    min-width: 26rem;
 }
 .training .container-wrapper .container .row .col-lg-4 .card{
     margin-bottom: 50px;

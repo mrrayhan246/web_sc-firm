@@ -2,6 +2,15 @@
 /*=================================================
     =====> Max-Width: 992px Screen Start <=====
 ===================================================*/
+@media only screen and (max-width: 1399px) {
+    .training .container-wrapper .container .row .col-lg-4{
+        margin: 0 10px;
+    }
+    .heading .navbar .collapse{
+        padding: 0 10px;
+    }
+
+}
 @media only screen and (max-width: 992px) {
     .sticky{
         height: 63px;
@@ -83,6 +92,23 @@
 
     .contact .container-wrapper .container .row .form-wrapper form .col-lg-7{
         width: 80%;
+    }
+
+
+    .safety-sign .container-wrapper .container .row {
+        justify-content: center;
+    }
+    .safety-sign .container-wrapper .container .row .col-lg-3{
+        justify-content: center !important;
+        width: 30%;
+    }
+
+    .training .container-wrapper .container .row{
+        justify-content: center;
+    }
+    .training .container-wrapper .container .row .col-lg-4{
+        display: flex;
+        justify-content: center;
     }
 }
 
