@@ -46,6 +46,7 @@
         --bg-glass-white: rgba(212, 212, 212, 0.8);
         --bg-glass: linear-gradient(rgba(255, 255, 255, 0.599),rgb(3, 64, 128));
         --bg-glass-black: rgba(0, 0, 0, 0.6);
+        --bg-glass-dark: rgba(0, 0, 0, 0.8);
 
 
         /* ========= Box Shadow root ========= */
@@ -784,7 +785,9 @@
 /* ========= Fire Safety Plan Page Style ========= */
 /* ========= Fire Safety Plan Page Style ========= */
 .fire-home .container-wrapper{
-    background: var(--bg-drak);
+    background-image: url(../images/bg/fire-safety.png.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .fire-home .container-wrapper .container-color{
     background: var(--bg-glass-black);
@@ -871,7 +874,12 @@
 /* ========= Environment Health & Safety Page Style ========= */
 /* ========= Environment Health & Safety Page Style ========= */
 .environment .container-wrapper{
-    background: var(--bg-drak);
+    background-image: url(../images/bg/Environmental.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.environment .container-wrapper .container-color{
+    background: var(--bg-glass-dark);
 }
 .environment .container-wrapper .container .row{
     padding: 5% 0;
@@ -891,7 +899,7 @@
     padding: 30px 0;
 }
 .environment .container-wrapper .container .row .col-lg-12 p{
-    color: var(--text-gray);
+    color: var(--text-white);
     font-weight: 400;
     text-align: left !important;
 }
