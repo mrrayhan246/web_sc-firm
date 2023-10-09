@@ -512,12 +512,13 @@
     padding-bottom: 30px;
 }
 .about-home .container-wrapper .container .row .about-titel p{
-    color: var(--text-gray);
+    color: var(--text-white);
     padding-bottom: 20px;
 }
 .about-home .container-wrapper .container .row .about-titel span{
-    color: var(--text-black);
+    color: var(--text-white);
     font-weight: 600;
+    line-height: 2px;
 }
 .about-home .container-wrapper .container .row .about-content{
     align-items: center;
@@ -566,7 +567,7 @@
     margin-bottom: 10px;
 }
 .about-home .container-wrapper .container .row .about-sub-content .box p{
-    color: var(--text-black);
+    color: var(--text-white);
 }
 .about-home .container-wrapper .container .row .about-sub-content .box-con .social-icon{
     display: flex;
