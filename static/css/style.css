@@ -24,6 +24,7 @@
         --text-black: #101010;
         --text-light-black: #333333;
         --text-green: #00ff7f;
+        --text-pink: #EB1859;
 
         --primary: #40E0D0;
         --secondary: #0E2F44;
@@ -131,7 +132,7 @@
     color: var(--text-white);
 }
 .heading-top .container-wrapper .container .row .content .social i{
-    color: var(--text-green);
+    color: var(--text-pink);
     padding-left: 8px;
 }
 
@@ -209,6 +210,45 @@
 /* ========= Home Section Style ========= */
 /* ========= Home Section Style ========= */
 .home{
+    height: 85vh;
+    background: #7dcca5;
+}
+.home .container-wrapper .container-fluid .carousel{
+    padding: 0;
+}
+.home .container-wrapper .container-fluid .carousel .carousel-inner{
+    height: 85vh;
+}
+.home .container-wrapper .container-fluid .carousel .carousel-inner img{
+    background-size: cover;
+    background-position: center;
+}
+.home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption{
+    top: 10%;
+}
+.home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption h5{
+    text-align: center;
+    color: var(--text-green);
+    font-size: 225%;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: normal;
+    padding-bottom: 1.5rem;
+}
+.home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption p{
+    color: var(--text-white);
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+}
+.home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+
+/* .home{
     background-image: url(../images/bg/home.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,7 +300,7 @@
     line-height: 1.5;
     font-weight: 500;
     text-align: center;
-}
+} */
 
 
 /* ========= Protect Section Style ========= */
@@ -757,7 +797,7 @@
 }
 .audit .container-wrapper .container .row .col-lg-4 h4{
     font-size: 20px;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-weight: 600;
 }
 .audit .container-wrapper .container .row .col-lg-4 h5{
