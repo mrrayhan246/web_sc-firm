@@ -617,6 +617,10 @@
     text-align: center;
     padding-bottom: 30px;
 }
+.manage-home .container-wrapper .container .row .card .card-body p{
+    font-size: 14px;
+    color: var(--text-gray);
+}
 
 
 /* ========= Services Page Style ========= */
