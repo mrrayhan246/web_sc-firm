@@ -23,7 +23,7 @@
         --text-gray: #808080;
         --text-black: #101010;
         --text-light-black: #333333;
-        --text-green: #00ff7f;
+        --text-pink: #00ff7f;
         --text-pink: #EB1859;
 
         --primary: #40E0D0;
@@ -227,7 +227,7 @@
 }
 .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption h5{
     text-align: center;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 30px;
     font-weight: 500;
     line-height: 1.5;
@@ -245,61 +245,6 @@
     width: 200px;
     margin-bottom: 30px;
 }
-
-
-/* .home{
-    background-image: url(../images/bg/home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 600px;
-}
-.home .container-wrapper{
-    width: 100%;
-    height: 600px;
-    background: var(--bg-glass);
-}
-.home .container-wrapper .container{
-    width: 100%;
-    height: 600px;
-}
-.home .container-wrapper .container .row{
-    padding: 8% 0;
-    width: 100%;
-    height: 600px;
-}
-.home .container-wrapper .container .row .content{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.home .container-wrapper .container .row .content .logo{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 1rem;
-}
-.home .container-wrapper .container .row .content .logo img{
-    width: 100px;
-}
-.home .container-wrapper .container .row .content h2{
-    text-align: center;
-    color: var(--text-green);
-    font-size: 225%;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: normal;
-    padding-bottom: 1.5rem;
-}
-.home .container-wrapper .container .row .content p{
-    max-width: 600px;
-    color: var(--text-white);
-    font-size: 100.25%;
-    line-height: 1.5;
-    font-weight: 500;
-    text-align: center;
-} */
 
 
 /* ========= Protect Section Style ========= */
@@ -335,7 +280,7 @@
 .protect .container-wrapper .container .row .content h2{
     text-align: center;
     font-size: 45px;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-weight: 600;
 }
 .protect .container-wrapper .container .row .content p{
@@ -390,7 +335,7 @@
 }
 .contact .container-wrapper .container .row .title h2{
     text-align: center;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 35px;
     font-weight: 500;
 }
@@ -432,62 +377,90 @@
 /* ========= Footer Section Style ========= */
 /* ========= Footer Section Style ========= */
 .footer{
-    background: var(--primary);
+	background-color: #24262b;
+    padding: 70px 0;
 }
-.footer .container-wrapper .container .row{
-    padding: 3rem 0;
-    justify-content: space-between;
+.footer .container{
+	margin:auto;
 }
-.footer .container-wrapper .container .row .col-lg-5 h2{
-    font-size: 22px;
-    font-weight: 600;
-    padding-bottom: 20px;
+.footer .container .row{
+	display: flex;
+	flex-wrap: wrap;
 }
-.footer .container-wrapper .container .row .col-lg-5 i{
-    font-size: 22px;
-    font-weight: 600;
+.footer .container .row .col-lg-3{
+    padding: 0 15px;
 }
-.footer .container-wrapper .container .row .col-lg-5 h3{
-    font-size: 18px;
-    font-weight: 600;
+.footer .container .row .col-lg-3 .box h3{
     color: var(--text-white);
-    padding-top: 20px;
+    font-size: 20px;
 }
-.footer .container-wrapper .container .row .col-lg-5 h6{
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--text-black);
-    padding-bottom: 5px;
-}
-.footer .container-wrapper .container .row .col-lg-5 a{
-    display: block;
-    color: var(--text-black);
-    text-decoration: none;
-    font-weight: 500;
-}
-.footer .container-wrapper .container .row .col-lg-5 p{
-    color: var(--text-black);
+.footer .container .row .col-lg-3 .box h6{
+    color: var(--text-white);
     font-size: 14px;
-    font-weight: 500;
 }
-.footer .container-wrapper .container .row .col-lg-2 h2,
-.footer .container-wrapper .container .row .col-lg-3 h2{
-    font-size: 16px;
-    font-weight: 600;
-    padding-bottom: 20px;
-    color: var(--text-light-black);
-}
-.footer .container-wrapper .container .row .col-lg-2 a,
-.footer .container-wrapper .container .row .col-lg-3 a{
+.footer .container .row .col-lg-3 .box a{
+    color: var(--text-white);
     display: block;
-    font-size: 14px;
     text-decoration: none;
-    color: var(--text-black);
-    font-weight: 500;
-    padding: 5px 0;
+    padding-bottom: 10px;
 }
-
-
+.footer .container .row .col-lg-3 .box p{
+    color: var(--text-gray);
+}
+.footer .container .row .col-lg-3 h4{
+	font-size: 18px;
+	color: var(--text-white);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer .container .row .col-lg-3 ul{
+	list-style: none;
+}
+.footer .container .row .col-lg-3 h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: var(--text-pink);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer .container .row .col-lg-3 ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer .container .row .col-lg-3 ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer .container .row .col-lg-3 ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer .container .row .col-lg-3 .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer .container .row .col-lg-3 .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
 
 
 /* ========= Footer Bottom Section Style ========= */
@@ -509,7 +482,7 @@
 .copy-right .container .row .col-lg-6 a{
     font-size: 14px;
     text-decoration: none;
-    color: var(--text-green);
+    color: var(--text-pink);
     padding: 0 5px;
     font-weight: 500;
 }
@@ -571,7 +544,7 @@
     margin: 0 3% ;
 }
 .about-home .container-wrapper .container .row .about-content .text h2{
-    color: var(--text-green);
+    color: var(--text-pink);
 }
 .about-home .container-wrapper .container .row .about-content .text p{
     color: var(--text-white);
@@ -597,7 +570,7 @@
     font-weight: 600;
 }
 .about-home .container-wrapper .container .row .about-sub-content .box h3{
-    color: var(--text-green);
+    color: var(--text-pink);
     font-weight: 600;
     padding-bottom: 3%;
 }
@@ -629,7 +602,7 @@
     text-decoration: none;
 }
 .about-home .container-wrapper .container .row .about-sub-content .box-con .social-icon .icon-box i{
-    color: var(--text-green);
+    color: var(--text-pink);
     transition: 0.5s;
 }
 .about-home .container-wrapper .container .row .about-sub-content .box-con .social-icon .icon-box:hover i{
@@ -686,7 +659,7 @@
     width: 400px;
 }
 .services .container-wrapper .container .row .col-lg-6 h2{
-    color: var(--text-green);
+    color: var(--text-pink);
     font-weight: 600;
     padding-bottom: 30px;
 }
@@ -723,7 +696,7 @@
 .services .container-wrapper .container .row .col-lg-3 .card-body h5{
     font-size: 18px;
     font-weight: 600;
-    color: var(--text-black);
+    color: var(--text-pink);
 }
 .services .container-wrapper .container .row .col-lg-3 img{
     width: 200px;
@@ -824,7 +797,7 @@
 }
 .fire-home .container-wrapper .container .row .text h3{
     text-align: center;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-weight: 600;
     padding-bottom: 30px;
 }
@@ -859,7 +832,7 @@
     width: 400px;
 }
 .pest-control .container-wrapper .container .row .col-lg-6 h2{
-    color: var(--text-green);
+    color: var(--text-pink);
     font-weight: 600;
     padding-bottom: 30px;
 }
@@ -880,7 +853,7 @@
 }
 .occupational .container-wrapper .container .row h3{
     text-align: center;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-weight: 600;
     padding-bottom: 30px
 }
@@ -905,13 +878,13 @@
 }
 .environment .container-wrapper .container .row h3{
     text-align: center;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-weight: 600;
     padding-bottom: 30px
 }
 .environment .container-wrapper .container .row h4{
     text-align: left;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding: 30px 0;
@@ -932,14 +905,14 @@
 }
 .lps-system .container-wrapper .container .row h3{
     text-align: left;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-bottom: 30px
 }
 .lps-system .container-wrapper .container .row h4{
     text-align: left;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
@@ -973,7 +946,7 @@
 }
 .safety-sign .container-wrapper .container .row h3{
     text-align: center;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-bottom: 30px
@@ -996,7 +969,7 @@
 }
 .electrical .container-wrapper .container .row h4{
     text-align: left;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
@@ -1020,7 +993,7 @@
 }
 .factory .container-wrapper .container .row h4{
     text-align: left;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
@@ -1040,7 +1013,7 @@
 }
 .kinds-of-factory .container-wrapper .container .row h4{
     text-align: left;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
@@ -1078,7 +1051,7 @@
 }
 .training .container-wrapper .container .row h4{
     text-align: left;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
@@ -1093,7 +1066,7 @@
     box-shadow: var(--box-shadow-hover);
 }
 .training .container-wrapper .container .row .col-lg-4 .card-title{
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     text-align: center !important;
@@ -1125,7 +1098,7 @@
 }
 .factory-self .container-wrapper .container .row h4{
     text-align: left;
-    color: var(--text-green);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
