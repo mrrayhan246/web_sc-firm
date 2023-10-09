@@ -210,14 +210,13 @@
 /* ========= Home Section Style ========= */
 /* ========= Home Section Style ========= */
 .home{
-    height: 85vh;
     background: #7dcca5;
 }
 .home .container-wrapper .container-fluid .carousel{
     padding: 0;
 }
 .home .container-wrapper .container-fluid .carousel .carousel-inner{
-    height: 85vh;
+    max-height: 85vh;
 }
 .home .container-wrapper .container-fluid .carousel .carousel-inner img{
     background-size: cover;
@@ -229,7 +228,7 @@
 .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption h5{
     text-align: center;
     color: var(--text-green);
-    font-size: 225%;
+    font-size: 30px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: normal;
@@ -237,7 +236,7 @@
 }
 .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption p{
     color: var(--text-white);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     font-weight: 500;
     text-align: center;
