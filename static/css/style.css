@@ -699,8 +699,12 @@
     font-weight: 600;
     color: var(--text-pink);
 }
+.services .container-wrapper .container .row .col-lg-3 .card-body{
+    flex: none;
+}
 .services .container-wrapper .container .row .col-lg-3 img{
-    width: 200px;
+    width: 150px;
+    padding: 20px;
 }
 
 /* ========= Clients Page Style ========= */
