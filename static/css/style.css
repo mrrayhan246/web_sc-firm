@@ -489,8 +489,14 @@
 
 /* ========= About Page Style ========= */
 /* ========= About Page Style ========= */
-.about-home{
-    padding: 3% 0;
+.about-home .container-wrapper{
+    background-image: url(../images/bg/about.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.about-home .container-wrapper .container-color{
+    background: var(--bg-glass-black);
 }
 .about-home .container-wrapper .container .row{
     justify-content: center;
@@ -513,17 +519,12 @@
     color: var(--text-black);
     font-weight: 600;
 }
-.about-home .container-wrapper .container .row .about-content-wrapper{
-    background-image: url(../images/bg/about.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 0;
-}
 .about-home .container-wrapper .container .row .about-content{
+    align-items: center;
     display: flex;
     justify-content: center;
-    background: rgba(28, 64, 128, 0.6);
     padding: 3% 0;
+    flex-direction: column;
 }
 .about-home .container-wrapper .container .row .about-content .text{
     max-width: 1000px;
