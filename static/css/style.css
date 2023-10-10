@@ -774,7 +774,7 @@
     padding: 3% 0;
 }
 .fire-home .container-wrapper .container .row{
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .fire-home .container-wrapper .container .row .text h3{
