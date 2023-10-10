@@ -997,6 +997,9 @@
 
 /* ========= Monitoring Page Style ========= */
 /* ========= Monitoring Page Style ========= */
+.kinds-of-factory .container-wrapper{
+    background: var(--bg-light);
+}
 .kinds-of-factory .container-wrapper .container .row{
     padding: 5% 0;
     justify-content: space-between;
@@ -1012,24 +1015,6 @@
     color: var(--text-gray);
     font-weight: 400;
     text-align: left !important;
-}
-
-
-/* ========= Monitoring Page Style ========= */
-/* ========= Monitoring Page Style ========= */
-.slider .container-wrapper .container-fluid .row{
-    /* padding: 5% 0; */
-    justify-content: space-between;
-}
-.slider .container-wrapper .container-fluid .row .slide,
-.slider .container-wrapper .container-fluid .row .carousel-inner
-{
-    height: 60vh !important;
-    padding: 0;
-}
-.slider .container-wrapper .container-fluid .row .carousel-control-prev,
-.slider .container-wrapper .container-fluid .row .carousel-control-next{
-    width: 3% !important;
 }
 
 
