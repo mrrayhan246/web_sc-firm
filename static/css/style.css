@@ -1024,44 +1024,21 @@
     padding: 5% 0;
     justify-content: center;
 }
-.training .container-wrapper .container .row h4{
-    text-align: left;
+.training .container-wrapper .container .row h2{
+    text-align: center;
+    color: var(--primary);
+    padding-bottom: 3%;
+}
+.training .container-wrapper .container .row .col-lg-4 ul li {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px;
+}
+.training .container-wrapper .container .row .col-lg-4 i {
     color: var(--text-pink);
-    font-size: 22px;
-    font-weight: 600;
-    padding-top: 30px;
+    padding-right: 10px;
 }
-.training .container-wrapper .container .row .col-lg-4{
-    min-width: 26rem;
-}
-.training .container-wrapper .container .row .col-lg-4 .card{
-    margin-bottom: 50px;
-    box-shadow: var(--box-shadow);
-    border: none;
-    transition: 0.3s;
-}
-.training .container-wrapper .container .row .col-lg-4 .card:hover{
-    box-shadow: var(--box-shadow-hover);
-}
-.training .container-wrapper .container .row .col-lg-4 .card-title{
-    color: var(--text-pink);
-    font-size: 22px;
-    font-weight: 600;
-    text-align: center !important;
-    margin-bottom: 20px;
-}
-.training .container-wrapper .container .row .col-lg-4 .card-text{
-    color: var(--text-gray);
-    font-size: 16px;
-    font-weight: 600;
-    text-align: left !important;
-    margin-bottom: 10px;
-    transition: 0.5s;
-}
-.training .container-wrapper .container .row .col-lg-4 .card-text:hover{
-    padding-left: 10px;
-    color: var(--text-black);
-}
+
 
 
 
