@@ -699,7 +699,7 @@
     width: 25rem;
     align-items: center;
     margin: 20px;
-    transition: 0.5s;
+    transition: 1s;
 }
 .client .container-wrapper .container .row .col-lg-4:hover{
     background: var(--text-pink);
@@ -746,7 +746,7 @@
     align-items: center;
     margin: 20px;
     box-shadow: var(--box-shadow);
-    transition: 0.5s;
+    transition: 1s;
     border: none;
 }
 .audit .container-wrapper .container .row .col-lg-4:hover{
