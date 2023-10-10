@@ -23,7 +23,7 @@
         --text-gray: #808080;
         --text-black: #101010;
         --text-light-black: #333333;
-        --text-pink: #00ff7f;
+        --text-green: #00ff7f;
         --text-pink: #EB1859;
 
         --primary: #40E0D0;
@@ -79,7 +79,7 @@
 }
 .scondary-btn{
     color: var(--text-white);
-    background: var(--btn-primary);
+    background: var(--text-pink);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -92,7 +92,7 @@
     transition: 0.5s;
 }
 .scondary-btn:hover{
-    color: var(--text-gray);
+    color: var(--text-black);
     box-shadow: var(--box-shadow-hover);
 }
 
