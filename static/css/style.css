@@ -940,9 +940,6 @@
 .safety-sign .container-wrapper{
     background: var(--bg-drak);
 }
-.safety-sign .container-wrapper .container-color{
-    background: var(--bg-glass-black);
-}
 .safety-sign .container-wrapper .container .row{
     padding: 5% 0;
     justify-content: space-between;
