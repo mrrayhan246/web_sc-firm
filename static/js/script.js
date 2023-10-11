@@ -39,4 +39,19 @@ ScrollReveal().reveal('.rev-bottom', {delay: 100, origin: 'bottom' });
 
 
 
-
+$(document).ready(function() {
+    var scrollButton = $('#scrollUp');
+    
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            scrollButton.fadeIn();
+        } else {
+            scrollButton.fadeOut();
+        }
+    });
+    
+    scrollButton.click(function() {
+        $('html, body').animate({ scrollTop: 0 }, 800);
+        return false;
+    });
+});
