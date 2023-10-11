@@ -335,7 +335,7 @@
 /*========== Contact Section Start  ==========*/
 /*========== Contact Section Start  ==========*/
 .contact{
-    background: var(--bg-second);
+    background: var(--btn-primary);
 }
 .contact .container{
     padding-top: 40px;
@@ -430,13 +430,24 @@
 }
 
 .contact .container .row .col-lg-8{
+    align-items: center;
     padding-left: 70px;
+    justify-content: center;
+    display: flex;
 }
 .contact .container .row .contact-widget .row .col-lg-6{
     margin-bottom: 30px;
 }
 .contact .container .row .contact-widget .row .col-lg-12{
     margin-bottom: 30px;
+}
+.contact .container .row .contact-widget .testi-title{
+    color: var(--text-white);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.contact .container .row .contact-widget form .row{
+    padding-bottom: 1rem;
 }
 .contact .container .row .contact-widget .row .from-control{
     padding: 10px 20px 10px 20px;

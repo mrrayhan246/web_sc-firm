@@ -115,6 +115,10 @@
     .safety-sign .container-wrapper .container .row .col-lg-3 img{
         width: 150px;
     }
+    .contact .container .row .col-lg-8{
+        padding-left: 10px;
+        margin-top: 30px;
+    }
 }
 
 
