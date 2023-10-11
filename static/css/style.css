@@ -224,7 +224,13 @@
     background-position: center;
 }
 .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption{
-    top: 10%;
+    top: 0;
+    max-height: 85vh;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption h5{
     text-align: center;
@@ -233,7 +239,7 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: normal;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption p{
     color: var(--text-white);

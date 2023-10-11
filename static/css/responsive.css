@@ -74,8 +74,8 @@
         font-size: 16px;
     }
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption img{
-        width: 150px;
-        margin-bottom: 30px;
+        width: 100px;
+        margin-bottom: 10px;
     }
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption{
         top: 5%;
@@ -115,14 +115,25 @@
 
 
 @media only screen and (max-width: 768px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .home .container-wrapper .container .row .content h2{
         font-size: 150%;
     }
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption h5{
-        font-size: 20px;
+        font-size: 12px;
     }
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption p{
-        font-size: 16px;
+        font-size: 10px;
+    }
+    .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption img{
+        display: none;
+    }
+    .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption{
+        top: 5%;
     }
     .home{
         height: auto;
