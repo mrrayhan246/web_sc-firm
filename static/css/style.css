@@ -1068,10 +1068,28 @@
     color: var(--primary);
     padding-bottom: 3%;
 }
+.training .container-wrapper .container .row .col-lg-4{
+    box-shadow: var(--box-shadow);
+    margin: 10px !important;
+    width: 26rem;
+    height: auto;
+}
+.training .container-wrapper .container .row .col-lg-4 ul{
+    width: 380px;
+    padding: 10px 5px;
+}
+
 .training .container-wrapper .container .row .col-lg-4 ul li {
     font-size: 14px;
     font-weight: 600;
     padding: 2px;
+    transition: .3s;
+    cursor: pointer;
+    color: var(--text-black);
+}
+.training .container-wrapper .container .row .col-lg-4 ul li:hover{
+    padding-left: 10px;
+    color: var(--text-pink);
 }
 .training .container-wrapper .container .row .col-lg-4 i {
     color: var(--text-pink);
