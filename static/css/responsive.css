@@ -68,7 +68,8 @@
 
 
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption h5{
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 600;
     }
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption p{
         font-size: 16px;
@@ -128,10 +129,13 @@
         font-size: 150%;
     }
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption h5{
-        font-size: 12px;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: -1px;
+        font-weight: 600;
     }
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption p{
-        font-size: 10px;
+        font-size: 12px;
     }
     .home .container-wrapper .container-fluid .carousel .carousel-inner .carousel-item .carousel-caption img{
         display: none;
