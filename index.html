@@ -618,9 +618,7 @@
                         <div class="col-lg-4 rev-left">
                             <h4>Fire Safety Solution</h4>
                             <p>✓ FIRE SAFETY PLAN</p>
-                            <p>✓ PEST CONTROL SYSTEM</p>
                             <p>✓ OCCUPATIONAL HEALTH & SAFETY</p>
-                            <p>✓ ENVIRONMENTAL MANAGEMENT ASSESSMENT (EIA)</p>
                             <p>✓ LPS SYSTEM</p>
                             <p>✓ ALL TYPE SAFETY SIGN PROVIDER</p>
                         </div>
@@ -987,96 +985,87 @@
     <!--=======================================
         =====> Contact Section End <=====
     =========================================-->
-    <section class="contact" id="contact">
-        <div class="container-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="title">
-                        <h2 class="rev-top">Send Us a Message</h2>
-                        <p class="rev-left">We Offer Installation, Inspection and Maintenance</p>
-                    </div>
 
-                    <div class="form-wrapper">
-                        <form>
-                            <div class="col-lg-7">
-                                <label for="inputAddress" class="form-label">Your Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Name">
-                            </div>
-                            <div class="col-lg-7">
-                                <label for="exampleInputEmail1" class="form-label">Your Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                            </div>
-                            <div class="col-lg-7">
-                                <label for="inputAddress" class="form-label">Subject</label>
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
-                            </div>
-                            <div class="col-lg-7">
-                                <label for="exampleFormControlTextarea1" class="form-label">Your message (optional)</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="primary-btn">Submit</button>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--=======================================
-        =====> Contact Section End <=====
-    =========================================-->
-
-    <!--=======================================
-        =====> Footer Section Start <=====
-    =========================================-->
-
-    <footer class="footer">
+    <div id="contact" class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="box">
-                        <h4>CONTACT US</h4>
-                        <h3>Mohammad Al Amin</h3>
-                        <h6>CEO</h6>
-                        <a href="">amin@sc-firm.com</a>
-                        <a href="">01859472925</a>
-                        <h3>Head Office :</h3>
-                        <p>House#18, Road#23, Sector#10, Uttara, Dhaka-1230</p>
+                <div class="col-lg-4">
+                    <div class="contact-box">
+                        <div class="sec-title">
+                            <h2 class="title white-color">CONTACT US</h2>
+                            <h3>Mohammad Al Amin</h3>
+                            <h4>CEO</h4>
+                        </div>
+                        <div class="address-box">
+                            <div class="address-icon">
+                                <i class="fa fa-home"></i>
+                            </div>
+                            <div class="address-text">
+                                <span class="label">Email:</span>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=info@foritbd.com" target="_blank">amin@sc-firm.com</a>
+                            </div>
+                        </div>
+                        <div class="address-box" style="margin-bottom: 0;">
+                            <div class="address-icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="address-text">
+                                <span class="label">Phone:</span>
+                                <a href="phone:+880 1722 408961">+880 1859 472925</a>
+                            </div>
+                        </div>
+                        <div class="headoff"><h2>Head Office</h2></div>
+                        <div class="address-box">
+                            <div class="address-icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="address-text">
+                                <span class="label">Address:</span>
+                                <div class="desc">House#18, Road#23, Sector#10, Uttara, Dhaka-1230</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <h4>CUSTOMER SERVICE</h4>
-                    <ul>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Consumer Complaints</a></li>
-                        <li><a href="#">Support Tickets</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h4>COMPANY INFORMATION</h4>
-                    <ul>
-                        <!-- <li><a href="#">About Us</a></li>
-                        <li><a href="#">Help & FAQs</a></li>
-                        <li><a href="#">Blogs & Forum</a></li> -->
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h4>OUR COMMUNITIES</h4>
-                    <ul>
-                        <li><a href="#">Facebook Page</a></li>
-                        <li><a href="#">Facebook Group</a></li>
-                        <li><a href="#">YouTube Channel</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Linkedin</a></li>
-                    </ul>
+                <div class="col-lg-8 md-pl-15 md-mt-40">
+                    <div class="contact-widget onepage-style">
+                        <div class="sec-title2 mb-40">
+                            <h2 class="title testi-title">Send Us a Message</h2>
+                        </div>
+                        <div id="form-messages"></div>
+                        <form id="contact-form" >
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input class="from-control" type="text" id="name" name="name" placeholder="Name"
+                                        required="">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input class="from-control" type="text" id="email" name="email"
+                                        placeholder="E-Mail" required="">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <input class="from-control" type="text" id="website" name="website"
+                                        placeholder="Subject" required="">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <textarea class="from-control" id="message" name="message"
+                                        placeholder="Your message (optional)" required=""></textarea>
+                                    </div>
+                                </div>
+                                <div class="btn-part">
+                                    <div class="form-group mb-0">
+                                        <input class="primary-btn" type="submit" value="Submit Now">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
     <!--=======================================
-        =====> Footer Section End <=====
+        =====> Contact Section End <=====
     =========================================-->
 
     <!--=======================================
