@@ -427,6 +427,10 @@
     font-size: 15px;
     line-height: 15px;
     color: var(--text-pink);
+    transition: 0.5s;
+}
+.contact .container .contact-box .address-icon:hover i{
+    transform: scale(1.6);
 }
 
 .contact .container .row .col-lg-8{
@@ -442,7 +446,7 @@
     margin-bottom: 30px;
 }
 .contact .container .row .contact-widget .testi-title{
-    color: var(--text-white);
+    color: var(--text-pink);
     margin-bottom: 2rem;
     text-align: center;
 }
