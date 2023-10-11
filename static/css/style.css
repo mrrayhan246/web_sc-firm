@@ -958,7 +958,12 @@
 /* ========= Environment Health & Safety Page Style ========= */
 /* ========= Environment Health & Safety Page Style ========= */
 .safety-sign .container-wrapper{
-    background: var(--bg-drak);
+    background-image: url(../images/bg/home-page/slider-7-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.safety-sign .container-wrapper .container-color{
+    background: var(--bg-glass-dark);
 }
 .safety-sign .container-wrapper .container .row{
     padding: 5% 0;
@@ -975,7 +980,7 @@
     padding-bottom: 30px;
 }
 .safety-sign .container-wrapper .container .row .col-lg-12 p{
-    color: var(--text-gray);
+    color: var(--text-white);
     font-weight: 400;
     text-align: left !important;
 }
@@ -1008,7 +1013,12 @@
 /* ========= Monitoring Page Style ========= */
 /* ========= Monitoring Page Style ========= */
 .factory .container-wrapper{
-    background: var(--bg-drak);
+    background-image: url(../images/bg/home-page/slider-2-min.png);
+    background-size: cover;
+    background-position: center;
+}
+.factory .container-wrapper .container-color{
+    background: var(--bg-glass-dark);
 }
 .factory .container-wrapper .container .row{
     padding: 5% 0;
@@ -1022,7 +1032,7 @@
     padding-top: 30px;
 }
 .factory .container-wrapper .container .row .col-lg-12 p{
-    color: var(--text-gray);
+    color: var(--text-white);
     font-weight: 400;
     text-align: left !important;
 }
@@ -1031,7 +1041,7 @@
 /* ========= Monitoring Page Style ========= */
 /* ========= Monitoring Page Style ========= */
 .kinds-of-factory .container-wrapper{
-    background: var(--bg-light);
+    background: var(--bg-drak);
 }
 .kinds-of-factory .container-wrapper .container .row{
     padding: 5% 0;
@@ -1064,13 +1074,12 @@
 }
 .training .container-wrapper .container .row .col-lg-4{
     box-shadow: var(--box-shadow);
-    margin: 10px !important;
-    width: 26rem;
+    width: 27rem;
     height: auto;
 }
 .training .container-wrapper .container .row .col-lg-4 ul{
     width: 380px;
-    padding: 10px 5px;
+    padding: 30px 5px 0;
 }
 
 .training .container-wrapper .container .row .col-lg-4 ul li {
@@ -1079,7 +1088,7 @@
     padding: 2px;
     transition: .3s;
     cursor: pointer;
-    color: var(--text-black);
+    color: var(--text-white);
 }
 .training .container-wrapper .container .row .col-lg-4 ul li:hover{
     padding-left: 10px;
@@ -1088,6 +1097,9 @@
 .training .container-wrapper .container .row .col-lg-4 i {
     color: var(--text-pink);
     padding-right: 10px;
+}
+.training .container-wrapper .container .row .col-lg-12{
+    padding-top: 30px;
 }
 
 
