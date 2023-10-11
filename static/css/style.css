@@ -942,7 +942,7 @@
 }
 .lps-system .container-wrapper .container .row h2{
     text-align: left;
-    color: var(--btn-primary);
+    color: var(--text-pink);
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
