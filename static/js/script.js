@@ -39,19 +39,18 @@ ScrollReveal().reveal('.rev-bottom', {delay: 100, origin: 'bottom' });
 
 
 
-$(document).ready(function() {
-    var scrollButton = $('#scrollUp');
-    
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 100) {
-            scrollButton.fadeIn();
+let back_to_top = document.querySelector('.back_to_top');
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 100) {
+        back_to_top.classList.add('show');
         } else {
-            scrollButton.fadeOut();
+        back_to_top.classList.remove('show');
         }
     });
-    
-    scrollButton.click(function() {
-        $('html, body').animate({ scrollTop: 0 }, 800);
-        return false;
+    back_to_top.addEventListener('click', function (e) {
+        window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth',
+        });
     });
-});
