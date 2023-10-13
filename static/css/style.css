@@ -859,6 +859,9 @@
     background-size: cover;
     background-position: center;
 }
+.pest-control .container-wrapper .container-color{
+    background: var(--bg-glass-black);
+}
 
 .pest-control .container-wrapper .container .row{
     padding: 5% 0;
@@ -879,8 +882,8 @@
     padding-bottom: 30px;
 }
 .pest-control .container-wrapper .container .row .col-lg-12 .box1 p{
-    color: var(--text-black);
-    font-weight: 600;
+    color: var(--text-white);
+    font-weight: 400;
     text-align: left !important;
     font-size: 20px;
 }
