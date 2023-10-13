@@ -634,13 +634,22 @@
     padding-bottom: 30px;
     color: var(--primary);
 }
-.manage-home .container-wrapper .container .row .card .card-body p{
+.manage-home .container-wrapper .container .row .col-lg-6 h3{
+    color: var(--text-pink);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.manage-home .container-wrapper .container .row .col-lg-6 h5{
+    color: var(--text-black);
+    font-weight: 600;
+}
+/* .manage-home .container-wrapper .container .row .card .card-body p{
     font-size: 14px;
     color: var(--text-gray);
 }
 .manage-home .container-wrapper .container .row .card{
     margin: 30px;
-}
+} */
 
 
 /* ========= Services Page Style ========= */
@@ -1089,7 +1098,7 @@
 }
 .training .container-wrapper .row .col-lg-6{
     box-shadow: var(--box-shadow);
-    background-image: url(../images/bg/home-page/slider-7-min.jpg);
+    background-image: url(../images/bg/tranign.webp);
     background-size: cover;
     width: 640px;
     margin: 10px;
