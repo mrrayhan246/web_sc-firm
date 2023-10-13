@@ -395,7 +395,7 @@
 }
 .contact .container .contact-box .address-box{
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 .contact .container .contact-box .address-text{
     display: flex;
