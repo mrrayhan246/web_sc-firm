@@ -1070,7 +1070,47 @@
 
 /* ========= Monitoring Page Style ========= */
 /* ========= Monitoring Page Style ========= */
-.training .container-wrapper .container .row{
+
+
+.training .container-wrapper{
+    padding: 2rem 0;
+}
+.training .container-wrapper .row{
+    justify-content: center;
+}
+.training .container-wrapper .row h2{
+    text-align: center;
+    color: var(--primary);
+    font-weight: 600;
+}
+.training .container-wrapper .row .col-lg-6{
+    box-shadow: var(--box-shadow);
+    width: 640px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.training .container-wrapper .row .col-lg-6 .titel p{
+    text-align: center;
+    font-size: 20px;
+    color: var(--text-pink);
+    font-weight: 600;
+    padding-top: 10px;
+}
+.training .container-wrapper .row .col-lg-6 .main-box{
+    display: flex;
+}
+.training .container-wrapper .row .col-lg-6 .main-box .box{
+    min-width: 320px;
+}
+.training .container-wrapper .row .col-lg-6 .main-box .box ul{
+    padding: 0;
+}
+.training .container-wrapper .row .col-lg-6 .main-box .box ul li i{
+    padding-right: 5px;
+    color: var(--text-pink);
+}
+
+/* .training .container-wrapper .container .row{
     padding: 5% 0;
     justify-content: center;
 }
@@ -1107,7 +1147,7 @@
 }
 .training .container-wrapper .container .row .col-lg-12{
     padding-top: 30px;
-}
+} */
 
 
 
