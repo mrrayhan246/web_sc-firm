@@ -259,8 +259,8 @@
     .training .container-wrapper .container .row{
         justify-content: center;
     }
-    .training .container-wrapper .container .row .col-lg-4 .card{
-        width: 100% !important;
-        margin-bottom: 20px;
+    .training .container-wrapper .row .col-lg-6 .main-box{
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -1116,6 +1116,7 @@
 }
 .training .container-wrapper .row .col-lg-6 .main-box{
     display: flex;
+    flex-direction: row;
 }
 .training .container-wrapper .row .col-lg-6 .main-box .box{
     min-width: 320px;
