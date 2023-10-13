@@ -1082,6 +1082,7 @@
     text-align: center;
     color: var(--primary);
     font-weight: 600;
+    padding-bottom: 30px;
 }
 .training .container-wrapper .row .col-lg-6{
     box-shadow: var(--box-shadow);
