@@ -433,6 +433,9 @@
     transform: scale(1.6);
 }
 
+.contact .container .row .col-lg-4{
+    margin-bottom: 30px;
+}
 .contact .container .row .col-lg-8{
     align-items: center;
     padding-left: 70px;
