@@ -638,10 +638,13 @@
     color: var(--text-pink);
     font-weight: 600;
     letter-spacing: 2px;
+    font-size: 22px;
 }
 .manage-home .container-wrapper .container .row .col-lg-6 h5{
     color: var(--text-black);
     font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 /* .manage-home .container-wrapper .container .row .card .card-body p{
     font-size: 14px;
@@ -1095,6 +1098,14 @@
     color: var(--primary);
     font-weight: 600;
     padding-bottom: 30px;
+}
+.training .container-wrapper .row .bg-1st{
+    box-shadow: var(--box-shadow);
+    background-image: url(../images/bg/tranign2.jpg) !important;
+    background-size: cover;
+    width: 640px;
+    margin: 10px;
+    border-radius: 10px;
 }
 .training .container-wrapper .row .col-lg-6{
     box-shadow: var(--box-shadow);
