@@ -637,6 +637,9 @@
     font-size: 14px;
     color: var(--text-gray);
 }
+.manage-home .container-wrapper .container .row .card{
+    margin: 30px;
+}
 
 
 /* ========= Services Page Style ========= */
