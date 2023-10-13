@@ -632,6 +632,7 @@
 .manage-home .container-wrapper .container .row .manege-title h2{
     text-align: center;
     padding-bottom: 30px;
+    color: var(--primary);
 }
 .manage-home .container-wrapper .container .row .card .card-body p{
     font-size: 14px;
