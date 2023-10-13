@@ -1086,6 +1086,8 @@
 }
 .training .container-wrapper .row .col-lg-6{
     box-shadow: var(--box-shadow);
+    background-image: url(../images/bg/home-page/slider-7-min.jpg);
+    background-size: cover;
     width: 640px;
     margin: 10px;
     border-radius: 10px;
@@ -1105,6 +1107,9 @@
 }
 .training .container-wrapper .row .col-lg-6 .main-box .box ul{
     padding: 0;
+}
+.training .container-wrapper .row .col-lg-6 .main-box .box ul li{
+    color: var(--text-white);
 }
 .training .container-wrapper .row .col-lg-6 .main-box .box ul li i{
     padding-right: 5px;
