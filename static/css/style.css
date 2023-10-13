@@ -814,27 +814,30 @@
     background: var(--bg-glass-black);
 }
 .fire-home .container-wrapper .container{
-    padding: 3% 0;
+    padding: 5% 0;
 }
 .fire-home .container-wrapper .container .row{
     justify-content: center;
     align-items: center;
 }
 .fire-home .container-wrapper .container .row .text h3{
+    font-size: 45px;
     text-align: center;
     color: var(--text-pink);
     font-weight: 600;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
-.fire-home .container-wrapper .container .row .col-lg-4 h4{
+.fire-home .container-wrapper .container .row .col-lg-6 h4{
     color: var(--primary);
     font-weight: 600;
     padding-bottom: 20px;
+    font-size: 30px;
 }
-.fire-home .container-wrapper .container .row .col-lg-4 p{
+.fire-home .container-wrapper .container .row .col-lg-6 p{
     color: var(--text-white);
     font-weight: 400;
     font-weight: 600;
+    font-size: 20px;
 }
 
 /* ========= Pest Control System Page Style ========= */
