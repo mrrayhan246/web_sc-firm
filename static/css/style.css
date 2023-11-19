@@ -768,6 +768,7 @@
     font-size: 20px;
     font-weight: 600;
     color: var(--text-pink);
+    text-align: center;
 }
 .clients .container-wrapper .container .row .col-lg-3 .content-box .title-box h5{
     font-size: 16px;
