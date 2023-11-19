@@ -11,6 +11,12 @@
     }
 
 }
+@media only screen and (max-width: 1200px) {
+    .clients .container-wrapper .container .row .col-lg-3{
+        margin: 35px !important;
+    }
+
+}
 @media only screen and (max-width: 992px) {
     .sticky{
         height: 63px;
@@ -82,13 +88,9 @@
         top: 5%;
     }
 
-    
 
-    .client .container-wrapper .container .row{
-        justify-content: center;
-    }
-    .client .container-wrapper .container .row .col-lg-4{
-        margin: 15px;
+    .clients .container-wrapper .container .row .col-lg-3{
+        margin: 15px !important;
     }
 
     .contact .container-wrapper .container .row .form-wrapper form .col-lg-7{
@@ -160,13 +162,6 @@
     }
     .services .container-wrapper .container .row .box h3{
         font-size: 14px;
-    }
-    .client .container-wrapper .container .row h2{
-        padding: 5% 0;
-    }
-    .client .container-wrapper .container .row .col-lg-4{
-        margin: 15px;
-        width: 90%;
     }
 
     .contact .container-wrapper .container .row .title h2{
